@@ -168,8 +168,8 @@ If you use this project in your research, please cite:
 ```bibtex
 @software{usda_mcp_server,
   title = {USDA MCP Server},
-  url = {https://github.com/yourusername/usda-mcp-server},
-  version = {0.2.0},
+  url = {https://github.com/LoggerApp/Nutrient_db_MCP},
+  version = {0.1.0},
   year = {2024}
 }
 ```

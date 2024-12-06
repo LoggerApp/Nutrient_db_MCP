@@ -76,6 +76,7 @@ The database initialization process:
 3. Builds indexes for common query patterns
 4. Calculates nutrient density scores
 5. Generates summary statistics
+6. Expect it to compile for multiple hours on most hardware
 
 See [Setup Guide: USDA Nutrient Database.md](docs/Setup%20Guide:%20USDA%20Nutrient%20Database.md) for detailed instructions.
 

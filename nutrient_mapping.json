@@ -1,0 +1,2397 @@
+{
+  "macronutrients": [
+    {
+      "id": 2047,
+      "name": "Energy (Atwater General Factors)",
+      "unit": "KCAL"
+    },
+    {
+      "id": 2048,
+      "name": "Energy (Atwater Specific Factors)",
+      "unit": "KCAL"
+    },
+    {
+      "id": 1003,
+      "name": "Protein",
+      "unit": "G"
+    },
+    {
+      "id": 1004,
+      "name": "Total lipid (fat)",
+      "unit": "G"
+    },
+    {
+      "id": 1005,
+      "name": "Carbohydrate, by difference",
+      "unit": "G"
+    },
+    {
+      "id": 1006,
+      "name": "Fiber, crude (DO NOT USE - Archived)",
+      "unit": "G"
+    },
+    {
+      "id": 1008,
+      "name": "Energy",
+      "unit": "KCAL"
+    },
+    {
+      "id": 1049,
+      "name": "Solids, non-fat",
+      "unit": "G"
+    },
+    {
+      "id": 1050,
+      "name": "Carbohydrate, by summation",
+      "unit": "G"
+    },
+    {
+      "id": 1053,
+      "name": "Adjusted Protein",
+      "unit": "G"
+    },
+    {
+      "id": 1062,
+      "name": "Energy",
+      "unit": "kJ"
+    },
+    {
+      "id": 1063,
+      "name": "Sugars, Total",
+      "unit": "G"
+    },
+    {
+      "id": 1066,
+      "name": "Fiber, neutral detergent (DO NOT USE - Archived)",
+      "unit": "G"
+    },
+    {
+      "id": 1067,
+      "name": "Reducing sugars",
+      "unit": "G"
+    },
+    {
+      "id": 1072,
+      "name": "Carbohydrate, other",
+      "unit": "G"
+    },
+    {
+      "id": 1079,
+      "name": "Fiber, total dietary",
+      "unit": "G"
+    },
+    {
+      "id": 1082,
+      "name": "Fiber, soluble",
+      "unit": "G"
+    },
+    {
+      "id": 1084,
+      "name": "Fiber, insoluble",
+      "unit": "G"
+    },
+    {
+      "id": 1085,
+      "name": "Total fat (NLEA)",
+      "unit": "G"
+    },
+    {
+      "id": 1086,
+      "name": "Total sugar alcohols",
+      "unit": "G"
+    },
+    {
+      "id": 1235,
+      "name": "Sugars, added",
+      "unit": "G"
+    },
+    {
+      "id": 1236,
+      "name": "Sugars, intrinsic",
+      "unit": "G"
+    },
+    {
+      "id": 1255,
+      "name": "Phospholipids",
+      "unit": "G"
+    },
+    {
+      "id": 1256,
+      "name": "Glycolipids",
+      "unit": "G"
+    },
+    {
+      "id": 1257,
+      "name": "Fatty acids, total trans",
+      "unit": "G"
+    },
+    {
+      "id": 1258,
+      "name": "Fatty acids, total saturated",
+      "unit": "G"
+    },
+    {
+      "id": 1290,
+      "name": "Unsaponifiable matter (lipids)",
+      "unit": "G"
+    },
+    {
+      "id": 1291,
+      "name": "Fatty acids, other than 607-615, 617-621, 624-632, 652-654, 686-689)",
+      "unit": "G"
+    },
+    {
+      "id": 1292,
+      "name": "Fatty acids, total monounsaturated",
+      "unit": "G"
+    },
+    {
+      "id": 1293,
+      "name": "Fatty acids, total polyunsaturated",
+      "unit": "G"
+    },
+    {
+      "id": 1318,
+      "name": "Fatty acids, saturated, other",
+      "unit": "G"
+    },
+    {
+      "id": 1319,
+      "name": "Fatty acids, monounsat., other",
+      "unit": "G"
+    },
+    {
+      "id": 1320,
+      "name": "Fatty acids, polyunsat., other",
+      "unit": "G"
+    },
+    {
+      "id": 1326,
+      "name": "Fatty acids, total sat., NLEA",
+      "unit": "G"
+    },
+    {
+      "id": 1327,
+      "name": "Fatty acids, total monounsat., NLEA",
+      "unit": "G"
+    },
+    {
+      "id": 1328,
+      "name": "Fatty acids, total polyunsat., NLEA",
+      "unit": "G"
+    },
+    {
+      "id": 1329,
+      "name": "Fatty acids, total trans-monoenoic",
+      "unit": "G"
+    },
+    {
+      "id": 1330,
+      "name": "Fatty acids, total trans-dienoic",
+      "unit": "G"
+    },
+    {
+      "id": 1331,
+      "name": "Fatty acids, total trans-polyenoic",
+      "unit": "G"
+    },
+    {
+      "id": 2000,
+      "name": "Total Sugars",
+      "unit": "G"
+    },
+    {
+      "id": 2033,
+      "name": "Total dietary fiber (AOAC 2011.25)",
+      "unit": "G"
+    },
+    {
+      "id": 2034,
+      "name": "Insoluble dietary fiber (IDF)",
+      "unit": "G"
+    },
+    {
+      "id": 2035,
+      "name": "Soluble dietary fiber (SDFP+SDFS)",
+      "unit": "G"
+    },
+    {
+      "id": 2036,
+      "name": "Soluble dietary fiber (SDFP)",
+      "unit": "G"
+    },
+    {
+      "id": 2037,
+      "name": "Soluble dietary fiber (SDFS)",
+      "unit": "G"
+    },
+    {
+      "id": 2038,
+      "name": "High Molecular Weight Dietary Fiber (HMWDF)",
+      "unit": "G"
+    },
+    {
+      "id": 2039,
+      "name": "Carbohydrates",
+      "unit": "G"
+    },
+    {
+      "id": 2044,
+      "name": "Lipids",
+      "unit": "G"
+    },
+    {
+      "id": 2065,
+      "name": "Low Molecular Weight Dietary Fiber (LMWDF)",
+      "unit": "G"
+    }
+  ],
+  "minerals": [
+    {
+      "id": 1087,
+      "name": "Calcium, Ca",
+      "unit": "MG"
+    },
+    {
+      "id": 1089,
+      "name": "Iron, Fe",
+      "unit": "MG"
+    },
+    {
+      "id": 1090,
+      "name": "Magnesium, Mg",
+      "unit": "MG"
+    },
+    {
+      "id": 1091,
+      "name": "Phosphorus, P",
+      "unit": "MG"
+    },
+    {
+      "id": 1092,
+      "name": "Potassium, K",
+      "unit": "MG"
+    },
+    {
+      "id": 1093,
+      "name": "Sodium, Na",
+      "unit": "MG"
+    },
+    {
+      "id": 1095,
+      "name": "Zinc, Zn",
+      "unit": "MG"
+    },
+    {
+      "id": 1100,
+      "name": "Iodine, I",
+      "unit": "UG"
+    },
+    {
+      "id": 1103,
+      "name": "Selenium, Se",
+      "unit": "UG"
+    },
+    {
+      "id": 1141,
+      "name": "Iron, heme",
+      "unit": "MG"
+    },
+    {
+      "id": 1142,
+      "name": "Iron, non-heme",
+      "unit": "MG"
+    },
+    {
+      "id": 1237,
+      "name": "Calcium, added",
+      "unit": "MG"
+    },
+    {
+      "id": 1238,
+      "name": "Iron, added",
+      "unit": "MG"
+    },
+    {
+      "id": 1239,
+      "name": "Calcium, intrinsic",
+      "unit": "MG"
+    },
+    {
+      "id": 1240,
+      "name": "Iron, intrinsic",
+      "unit": "MG"
+    }
+  ],
+  "vitamins": [
+    {
+      "id": 1104,
+      "name": "Vitamin A, IU",
+      "unit": "IU"
+    },
+    {
+      "id": 1106,
+      "name": "Vitamin A, RAE",
+      "unit": "UG"
+    },
+    {
+      "id": 1109,
+      "name": "Vitamin E (alpha-tocopherol)",
+      "unit": "MG"
+    },
+    {
+      "id": 1110,
+      "name": "Vitamin D (D2 + D3), International Units",
+      "unit": "IU"
+    },
+    {
+      "id": 1111,
+      "name": "Vitamin D2 (ergocalciferol)",
+      "unit": "UG"
+    },
+    {
+      "id": 1112,
+      "name": "Vitamin D3 (cholecalciferol)",
+      "unit": "UG"
+    },
+    {
+      "id": 1114,
+      "name": "Vitamin D (D2 + D3)",
+      "unit": "UG"
+    },
+    {
+      "id": 1124,
+      "name": "Vitamin E (label entry primarily)",
+      "unit": "IU"
+    },
+    {
+      "id": 1156,
+      "name": "Vitamin A, RE",
+      "unit": "MCG_RE"
+    },
+    {
+      "id": 1158,
+      "name": "Vitamin E",
+      "unit": "MG_ATE"
+    },
+    {
+      "id": 1162,
+      "name": "Vitamin C, total ascorbic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1163,
+      "name": "Vitamin C, reduced ascorbic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1164,
+      "name": "Vitamin C, dehydro ascorbic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1165,
+      "name": "Thiamin",
+      "unit": "MG"
+    },
+    {
+      "id": 1166,
+      "name": "Riboflavin",
+      "unit": "MG"
+    },
+    {
+      "id": 1167,
+      "name": "Niacin",
+      "unit": "MG"
+    },
+    {
+      "id": 1168,
+      "name": "Niacin from tryptophan, determined",
+      "unit": "MG"
+    },
+    {
+      "id": 1169,
+      "name": "Niacin equivalent N406 +N407",
+      "unit": "MG"
+    },
+    {
+      "id": 1171,
+      "name": "Vitamin B-6, pyridoxine, alcohol form",
+      "unit": "MG"
+    },
+    {
+      "id": 1172,
+      "name": "Vitamin B-6, pyridoxal, aldehyde form",
+      "unit": "MG"
+    },
+    {
+      "id": 1173,
+      "name": "Vitamin B-6, pyridoxamine, amine form",
+      "unit": "MG"
+    },
+    {
+      "id": 1174,
+      "name": "Vitamin B-6, N411 + N412 +N413",
+      "unit": "MG"
+    },
+    {
+      "id": 1175,
+      "name": "Vitamin B-6",
+      "unit": "MG"
+    },
+    {
+      "id": 1176,
+      "name": "Biotin",
+      "unit": "UG"
+    },
+    {
+      "id": 1177,
+      "name": "Folate, total",
+      "unit": "UG"
+    },
+    {
+      "id": 1178,
+      "name": "Vitamin B-12",
+      "unit": "UG"
+    },
+    {
+      "id": 1179,
+      "name": "Folate, free",
+      "unit": "UG"
+    },
+    {
+      "id": 1180,
+      "name": "Choline, total",
+      "unit": "MG"
+    },
+    {
+      "id": 1183,
+      "name": "Vitamin K (Menaquinone-4)",
+      "unit": "UG"
+    },
+    {
+      "id": 1184,
+      "name": "Vitamin K (Dihydrophylloquinone)",
+      "unit": "UG"
+    },
+    {
+      "id": 1185,
+      "name": "Vitamin K (phylloquinone)",
+      "unit": "UG"
+    },
+    {
+      "id": 1187,
+      "name": "Folate, food",
+      "unit": "UG"
+    },
+    {
+      "id": 1188,
+      "name": "5-methyl tetrahydrofolate (5-MTHF)",
+      "unit": "UG"
+    },
+    {
+      "id": 1189,
+      "name": "Folate, not 5-MTHF",
+      "unit": "UG"
+    },
+    {
+      "id": 1190,
+      "name": "Folate, DFE",
+      "unit": "UG"
+    },
+    {
+      "id": 1194,
+      "name": "Choline, free",
+      "unit": "MG"
+    },
+    {
+      "id": 1195,
+      "name": "Choline, from phosphocholine",
+      "unit": "MG"
+    },
+    {
+      "id": 1196,
+      "name": "Choline, from phosphotidyl choline",
+      "unit": "MG"
+    },
+    {
+      "id": 1197,
+      "name": "Choline, from glycerophosphocholine",
+      "unit": "MG"
+    },
+    {
+      "id": 1199,
+      "name": "Choline, from sphingomyelin",
+      "unit": "MG"
+    },
+    {
+      "id": 1241,
+      "name": "Vitamin C, added",
+      "unit": "MG"
+    },
+    {
+      "id": 1242,
+      "name": "Vitamin E, added",
+      "unit": "MG"
+    },
+    {
+      "id": 1243,
+      "name": "Thiamin, added",
+      "unit": "MG"
+    },
+    {
+      "id": 1244,
+      "name": "Riboflavin, added",
+      "unit": "MG"
+    },
+    {
+      "id": 1245,
+      "name": "Niacin, added",
+      "unit": "MG"
+    },
+    {
+      "id": 1246,
+      "name": "Vitamin B-12, added",
+      "unit": "UG"
+    },
+    {
+      "id": 1247,
+      "name": "Vitamin C, intrinsic",
+      "unit": "MG"
+    },
+    {
+      "id": 1248,
+      "name": "Vitamin E, intrinsic",
+      "unit": "MG"
+    },
+    {
+      "id": 1249,
+      "name": "Thiamin, intrinsic",
+      "unit": "MG"
+    },
+    {
+      "id": 1250,
+      "name": "Riboflavin, intrinsic",
+      "unit": "MG"
+    },
+    {
+      "id": 1251,
+      "name": "Niacin, intrinsic",
+      "unit": "MG"
+    },
+    {
+      "id": 1252,
+      "name": "Vitamin B-12, intrinsic",
+      "unit": "UG"
+    },
+    {
+      "id": 2046,
+      "name": "Vitamins and Other Components",
+      "unit": "G"
+    },
+    {
+      "id": 2059,
+      "name": "Vitamin D4",
+      "unit": "UG"
+    },
+    {
+      "id": 2068,
+      "name": "Vitamin E",
+      "unit": "MG"
+    },
+    {
+      "id": 2067,
+      "name": "Vitamin A",
+      "unit": "UG"
+    }
+  ],
+  "lipids": [
+    {
+      "id": 1253,
+      "name": "Cholesterol",
+      "unit": "MG"
+    }
+  ],
+  "uncategorized": [
+    {
+      "id": 1001,
+      "name": "Solids",
+      "unit": "G"
+    },
+    {
+      "id": 1002,
+      "name": "Nitrogen",
+      "unit": "G"
+    },
+    {
+      "id": 1007,
+      "name": "Ash",
+      "unit": "G"
+    },
+    {
+      "id": 1009,
+      "name": "Starch",
+      "unit": "G"
+    },
+    {
+      "id": 1010,
+      "name": "Sucrose",
+      "unit": "G"
+    },
+    {
+      "id": 1011,
+      "name": "Glucose",
+      "unit": "G"
+    },
+    {
+      "id": 1012,
+      "name": "Fructose",
+      "unit": "G"
+    },
+    {
+      "id": 1013,
+      "name": "Lactose",
+      "unit": "G"
+    },
+    {
+      "id": 1014,
+      "name": "Maltose",
+      "unit": "G"
+    },
+    {
+      "id": 1015,
+      "name": "Amylose",
+      "unit": "G"
+    },
+    {
+      "id": 1016,
+      "name": "Amylopectin",
+      "unit": "G"
+    },
+    {
+      "id": 1017,
+      "name": "Pectin",
+      "unit": "G"
+    },
+    {
+      "id": 1018,
+      "name": "Alcohol, ethyl",
+      "unit": "G"
+    },
+    {
+      "id": 1019,
+      "name": "Pentosan",
+      "unit": "G"
+    },
+    {
+      "id": 1020,
+      "name": "Pentoses",
+      "unit": "G"
+    },
+    {
+      "id": 1021,
+      "name": "Hemicellulose",
+      "unit": "G"
+    },
+    {
+      "id": 1022,
+      "name": "Cellulose",
+      "unit": "G"
+    },
+    {
+      "id": 1023,
+      "name": "pH",
+      "unit": "PH"
+    },
+    {
+      "id": 1024,
+      "name": "Specific Gravity",
+      "unit": "SP_GR"
+    },
+    {
+      "id": 1025,
+      "name": "Organic acids",
+      "unit": "G"
+    },
+    {
+      "id": 1026,
+      "name": "Acetic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1027,
+      "name": "Aconitic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1028,
+      "name": "Benzoic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1029,
+      "name": "Chelidonic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1030,
+      "name": "Chlorogenic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1031,
+      "name": "Cinnamic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1032,
+      "name": "Citric acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1033,
+      "name": "Fumaric acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1034,
+      "name": "Galacturonic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1035,
+      "name": "Gallic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1036,
+      "name": "Glycolic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1037,
+      "name": "Isocitric acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1038,
+      "name": "Lactic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1039,
+      "name": "Malic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1040,
+      "name": "Oxaloacetic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1041,
+      "name": "Oxalic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1042,
+      "name": "Phytic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1043,
+      "name": "Pyruvic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1044,
+      "name": "Quinic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1045,
+      "name": "Salicylic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1046,
+      "name": "Succinic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1047,
+      "name": "Tartaric acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1048,
+      "name": "Ursolic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1051,
+      "name": "Water",
+      "unit": "G"
+    },
+    {
+      "id": 1052,
+      "name": "Adjusted Nitrogen",
+      "unit": "G"
+    },
+    {
+      "id": 1054,
+      "name": "Piperine",
+      "unit": "G"
+    },
+    {
+      "id": 1055,
+      "name": "Mannitol",
+      "unit": "G"
+    },
+    {
+      "id": 1056,
+      "name": "Sorbitol",
+      "unit": "G"
+    },
+    {
+      "id": 1057,
+      "name": "Caffeine",
+      "unit": "MG"
+    },
+    {
+      "id": 1058,
+      "name": "Theobromine",
+      "unit": "MG"
+    },
+    {
+      "id": 1059,
+      "name": "Nitrates",
+      "unit": "MG"
+    },
+    {
+      "id": 1060,
+      "name": "Nitrites",
+      "unit": "MG"
+    },
+    {
+      "id": 1061,
+      "name": "Nitrosamine,total",
+      "unit": "MG"
+    },
+    {
+      "id": 1064,
+      "name": "Solids, soluble",
+      "unit": "G"
+    },
+    {
+      "id": 1065,
+      "name": "Glycogen",
+      "unit": "G"
+    },
+    {
+      "id": 1068,
+      "name": "Beta-glucans",
+      "unit": "G"
+    },
+    {
+      "id": 1069,
+      "name": "Oligosaccharides",
+      "unit": "G"
+    },
+    {
+      "id": 1070,
+      "name": "Nonstarch polysaccharides",
+      "unit": "G"
+    },
+    {
+      "id": 1071,
+      "name": "Resistant starch",
+      "unit": "G"
+    },
+    {
+      "id": 1073,
+      "name": "Arabinose",
+      "unit": "G"
+    },
+    {
+      "id": 1074,
+      "name": "Xylose",
+      "unit": "G"
+    },
+    {
+      "id": 1075,
+      "name": "Galactose",
+      "unit": "G"
+    },
+    {
+      "id": 1076,
+      "name": "Raffinose",
+      "unit": "G"
+    },
+    {
+      "id": 1077,
+      "name": "Stachyose",
+      "unit": "G"
+    },
+    {
+      "id": 1078,
+      "name": "Xylitol",
+      "unit": "G"
+    },
+    {
+      "id": 1080,
+      "name": "Lignin",
+      "unit": "G"
+    },
+    {
+      "id": 1081,
+      "name": "Ribose",
+      "unit": "G"
+    },
+    {
+      "id": 1083,
+      "name": "Theophylline",
+      "unit": "MG"
+    },
+    {
+      "id": 1088,
+      "name": "Chlorine, Cl",
+      "unit": "MG"
+    },
+    {
+      "id": 1094,
+      "name": "Sulfur, S",
+      "unit": "MG"
+    },
+    {
+      "id": 1096,
+      "name": "Chromium, Cr",
+      "unit": "UG"
+    },
+    {
+      "id": 1097,
+      "name": "Cobalt, Co",
+      "unit": "UG"
+    },
+    {
+      "id": 1098,
+      "name": "Copper, Cu",
+      "unit": "MG"
+    },
+    {
+      "id": 1099,
+      "name": "Fluoride, F",
+      "unit": "UG"
+    },
+    {
+      "id": 1101,
+      "name": "Manganese, Mn",
+      "unit": "MG"
+    },
+    {
+      "id": 1102,
+      "name": "Molybdenum, Mo",
+      "unit": "UG"
+    },
+    {
+      "id": 1105,
+      "name": "Retinol",
+      "unit": "UG"
+    },
+    {
+      "id": 1107,
+      "name": "Carotene, beta",
+      "unit": "UG"
+    },
+    {
+      "id": 1108,
+      "name": "Carotene, alpha",
+      "unit": "UG"
+    },
+    {
+      "id": 1113,
+      "name": "25-hydroxycholecalciferol",
+      "unit": "UG"
+    },
+    {
+      "id": 1115,
+      "name": "25-hydroxyergocalciferol",
+      "unit": "UG"
+    },
+    {
+      "id": 1116,
+      "name": "Phytoene",
+      "unit": "UG"
+    },
+    {
+      "id": 1117,
+      "name": "Phytofluene",
+      "unit": "UG"
+    },
+    {
+      "id": 1118,
+      "name": "Carotene, gamma",
+      "unit": "UG"
+    },
+    {
+      "id": 1119,
+      "name": "Zeaxanthin",
+      "unit": "UG"
+    },
+    {
+      "id": 1120,
+      "name": "Cryptoxanthin, beta",
+      "unit": "UG"
+    },
+    {
+      "id": 1121,
+      "name": "Lutein",
+      "unit": "UG"
+    },
+    {
+      "id": 1122,
+      "name": "Lycopene",
+      "unit": "UG"
+    },
+    {
+      "id": 1123,
+      "name": "Lutein + zeaxanthin",
+      "unit": "UG"
+    },
+    {
+      "id": 1125,
+      "name": "Tocopherol, beta",
+      "unit": "MG"
+    },
+    {
+      "id": 1126,
+      "name": "Tocopherol, gamma",
+      "unit": "MG"
+    },
+    {
+      "id": 1127,
+      "name": "Tocopherol, delta",
+      "unit": "MG"
+    },
+    {
+      "id": 1128,
+      "name": "Tocotrienol, alpha",
+      "unit": "MG"
+    },
+    {
+      "id": 1129,
+      "name": "Tocotrienol, beta",
+      "unit": "MG"
+    },
+    {
+      "id": 1130,
+      "name": "Tocotrienol, gamma",
+      "unit": "MG"
+    },
+    {
+      "id": 1131,
+      "name": "Tocotrienol, delta",
+      "unit": "MG"
+    },
+    {
+      "id": 1132,
+      "name": "Aluminum, Al",
+      "unit": "UG"
+    },
+    {
+      "id": 1133,
+      "name": "Antimony, Sb",
+      "unit": "UG"
+    },
+    {
+      "id": 1134,
+      "name": "Arsenic, As",
+      "unit": "UG"
+    },
+    {
+      "id": 1135,
+      "name": "Barium, Ba",
+      "unit": "UG"
+    },
+    {
+      "id": 1136,
+      "name": "Beryllium, Be",
+      "unit": "UG"
+    },
+    {
+      "id": 1137,
+      "name": "Boron, B",
+      "unit": "UG"
+    },
+    {
+      "id": 1138,
+      "name": "Bromine, Br",
+      "unit": "UG"
+    },
+    {
+      "id": 1139,
+      "name": "Cadmium, Cd",
+      "unit": "UG"
+    },
+    {
+      "id": 1140,
+      "name": "Gold, Au",
+      "unit": "UG"
+    },
+    {
+      "id": 1143,
+      "name": "Lead, Pb",
+      "unit": "UG"
+    },
+    {
+      "id": 1144,
+      "name": "Lithium, Li",
+      "unit": "UG"
+    },
+    {
+      "id": 1145,
+      "name": "Mercury, Hg",
+      "unit": "UG"
+    },
+    {
+      "id": 1146,
+      "name": "Nickel, Ni",
+      "unit": "UG"
+    },
+    {
+      "id": 1147,
+      "name": "Rubidium, Rb",
+      "unit": "UG"
+    },
+    {
+      "id": 1148,
+      "name": "Fluoride - DO NOT USE; use 313",
+      "unit": "UG"
+    },
+    {
+      "id": 1149,
+      "name": "Salt, NaCl",
+      "unit": "MG"
+    },
+    {
+      "id": 1150,
+      "name": "Silicon, Si",
+      "unit": "UG"
+    },
+    {
+      "id": 1151,
+      "name": "Silver, Ag",
+      "unit": "UG"
+    },
+    {
+      "id": 1152,
+      "name": "Strontium, Sr",
+      "unit": "UG"
+    },
+    {
+      "id": 1153,
+      "name": "Tin, Sn",
+      "unit": "UG"
+    },
+    {
+      "id": 1154,
+      "name": "Titanium, Ti",
+      "unit": "UG"
+    },
+    {
+      "id": 1155,
+      "name": "Vanadium, V",
+      "unit": "UG"
+    },
+    {
+      "id": 1157,
+      "name": "Carotene",
+      "unit": "MCG_RE"
+    },
+    {
+      "id": 1159,
+      "name": "cis-beta-Carotene",
+      "unit": "UG"
+    },
+    {
+      "id": 1160,
+      "name": "cis-Lycopene",
+      "unit": "UG"
+    },
+    {
+      "id": 1161,
+      "name": "cis-Lutein/Zeaxanthin",
+      "unit": "UG"
+    },
+    {
+      "id": 1170,
+      "name": "Pantothenic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1181,
+      "name": "Inositol",
+      "unit": "MG"
+    },
+    {
+      "id": 1182,
+      "name": "Inositol phosphate",
+      "unit": "MG"
+    },
+    {
+      "id": 1186,
+      "name": "Folic acid",
+      "unit": "UG"
+    },
+    {
+      "id": 1191,
+      "name": "10-Formyl folic acid (10HCOFA)",
+      "unit": "UG"
+    },
+    {
+      "id": 1192,
+      "name": "5-Formyltetrahydrofolic acid (5-HCOH4",
+      "unit": "UG"
+    },
+    {
+      "id": 1193,
+      "name": "Tetrahydrofolic acid (THF)",
+      "unit": "UG"
+    },
+    {
+      "id": 1198,
+      "name": "Betaine",
+      "unit": "MG"
+    },
+    {
+      "id": 1200,
+      "name": "p-Hydroxy benzoic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1201,
+      "name": "Caffeic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1202,
+      "name": "p-Coumaric acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1203,
+      "name": "Ellagic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1204,
+      "name": "Ferrulic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1205,
+      "name": "Gentisic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1206,
+      "name": "Tyrosol",
+      "unit": "MG"
+    },
+    {
+      "id": 1207,
+      "name": "Vanillic acid",
+      "unit": "MG"
+    },
+    {
+      "id": 1208,
+      "name": "Phenolic acids, total",
+      "unit": "MG"
+    },
+    {
+      "id": 1209,
+      "name": "Polyphenols, total",
+      "unit": "MG"
+    },
+    {
+      "id": 1210,
+      "name": "Tryptophan",
+      "unit": "G"
+    },
+    {
+      "id": 1211,
+      "name": "Threonine",
+      "unit": "G"
+    },
+    {
+      "id": 1212,
+      "name": "Isoleucine",
+      "unit": "G"
+    },
+    {
+      "id": 1213,
+      "name": "Leucine",
+      "unit": "G"
+    },
+    {
+      "id": 1214,
+      "name": "Lysine",
+      "unit": "G"
+    },
+    {
+      "id": 1215,
+      "name": "Methionine",
+      "unit": "G"
+    },
+    {
+      "id": 1216,
+      "name": "Cystine",
+      "unit": "G"
+    },
+    {
+      "id": 1217,
+      "name": "Phenylalanine",
+      "unit": "G"
+    },
+    {
+      "id": 1218,
+      "name": "Tyrosine",
+      "unit": "G"
+    },
+    {
+      "id": 1219,
+      "name": "Valine",
+      "unit": "G"
+    },
+    {
+      "id": 1220,
+      "name": "Arginine",
+      "unit": "G"
+    },
+    {
+      "id": 1221,
+      "name": "Histidine",
+      "unit": "G"
+    },
+    {
+      "id": 1222,
+      "name": "Alanine",
+      "unit": "G"
+    },
+    {
+      "id": 1223,
+      "name": "Aspartic acid",
+      "unit": "G"
+    },
+    {
+      "id": 1224,
+      "name": "Glutamic acid",
+      "unit": "G"
+    },
+    {
+      "id": 1225,
+      "name": "Glycine",
+      "unit": "G"
+    },
+    {
+      "id": 1226,
+      "name": "Proline",
+      "unit": "G"
+    },
+    {
+      "id": 1227,
+      "name": "Serine",
+      "unit": "G"
+    },
+    {
+      "id": 1228,
+      "name": "Hydroxyproline",
+      "unit": "G"
+    },
+    {
+      "id": 1229,
+      "name": "Cysteine and methionine(sulfer containig AA)",
+      "unit": "G"
+    },
+    {
+      "id": 1230,
+      "name": "Phenylalanine and tyrosine (aromatic  AA)",
+      "unit": "G"
+    },
+    {
+      "id": 1231,
+      "name": "Asparagine",
+      "unit": "G"
+    },
+    {
+      "id": 1232,
+      "name": "Cysteine",
+      "unit": "G"
+    },
+    {
+      "id": 1233,
+      "name": "Glutamine",
+      "unit": "G"
+    },
+    {
+      "id": 1234,
+      "name": "Taurine",
+      "unit": "G"
+    },
+    {
+      "id": 1254,
+      "name": "Glycerides",
+      "unit": "G"
+    },
+    {
+      "id": 1259,
+      "name": "SFA 4:0",
+      "unit": "G"
+    },
+    {
+      "id": 1260,
+      "name": "SFA 6:0",
+      "unit": "G"
+    },
+    {
+      "id": 1261,
+      "name": "SFA 8:0",
+      "unit": "G"
+    },
+    {
+      "id": 1262,
+      "name": "SFA 10:0",
+      "unit": "G"
+    },
+    {
+      "id": 1263,
+      "name": "SFA 12:0",
+      "unit": "G"
+    },
+    {
+      "id": 1264,
+      "name": "SFA 14:0",
+      "unit": "G"
+    },
+    {
+      "id": 1265,
+      "name": "SFA 16:0",
+      "unit": "G"
+    },
+    {
+      "id": 1266,
+      "name": "SFA 18:0",
+      "unit": "G"
+    },
+    {
+      "id": 1267,
+      "name": "SFA 20:0",
+      "unit": "G"
+    },
+    {
+      "id": 1268,
+      "name": "MUFA 18:1",
+      "unit": "G"
+    },
+    {
+      "id": 1269,
+      "name": "PUFA 18:2",
+      "unit": "G"
+    },
+    {
+      "id": 1270,
+      "name": "PUFA 18:3",
+      "unit": "G"
+    },
+    {
+      "id": 1271,
+      "name": "PUFA 20:4",
+      "unit": "G"
+    },
+    {
+      "id": 1272,
+      "name": "PUFA 22:6 n-3 (DHA)",
+      "unit": "G"
+    },
+    {
+      "id": 1273,
+      "name": "SFA 22:0",
+      "unit": "G"
+    },
+    {
+      "id": 1274,
+      "name": "MUFA 14:1",
+      "unit": "G"
+    },
+    {
+      "id": 1275,
+      "name": "MUFA 16:1",
+      "unit": "G"
+    },
+    {
+      "id": 1276,
+      "name": "PUFA 18:4",
+      "unit": "G"
+    },
+    {
+      "id": 1277,
+      "name": "MUFA 20:1",
+      "unit": "G"
+    },
+    {
+      "id": 1278,
+      "name": "PUFA 20:5 n-3 (EPA)",
+      "unit": "G"
+    },
+    {
+      "id": 1279,
+      "name": "MUFA 22:1",
+      "unit": "G"
+    },
+    {
+      "id": 1280,
+      "name": "PUFA 22:5 n-3 (DPA)",
+      "unit": "G"
+    },
+    {
+      "id": 1281,
+      "name": "TFA 14:1 t",
+      "unit": "G"
+    },
+    {
+      "id": 1283,
+      "name": "Phytosterols",
+      "unit": "MG"
+    },
+    {
+      "id": 1284,
+      "name": "Ergosterol",
+      "unit": "MG"
+    },
+    {
+      "id": 1285,
+      "name": "Stigmasterol",
+      "unit": "MG"
+    },
+    {
+      "id": 1286,
+      "name": "Campesterol",
+      "unit": "MG"
+    },
+    {
+      "id": 1287,
+      "name": "Brassicasterol",
+      "unit": "MG"
+    },
+    {
+      "id": 1288,
+      "name": "Beta-sitosterol",
+      "unit": "MG"
+    },
+    {
+      "id": 1289,
+      "name": "Campestanol",
+      "unit": "MG"
+    },
+    {
+      "id": 1294,
+      "name": "Beta-sitostanol",
+      "unit": "MG"
+    },
+    {
+      "id": 1295,
+      "name": "Delta-7-avenasterol",
+      "unit": "MG"
+    },
+    {
+      "id": 1296,
+      "name": "Delta-5-avenasterol",
+      "unit": "MG"
+    },
+    {
+      "id": 1297,
+      "name": "Alpha-spinasterol",
+      "unit": "MG"
+    },
+    {
+      "id": 1298,
+      "name": "Phytosterols, other",
+      "unit": "MG"
+    },
+    {
+      "id": 1299,
+      "name": "SFA 15:0",
+      "unit": "G"
+    },
+    {
+      "id": 1300,
+      "name": "SFA 17:0",
+      "unit": "G"
+    },
+    {
+      "id": 1301,
+      "name": "SFA 24:0",
+      "unit": "G"
+    },
+    {
+      "id": 1302,
+      "name": "Wax Esters(Total Wax)",
+      "unit": "G"
+    },
+    {
+      "id": 1303,
+      "name": "TFA 16:1 t",
+      "unit": "G"
+    },
+    {
+      "id": 1304,
+      "name": "TFA 18:1 t",
+      "unit": "G"
+    },
+    {
+      "id": 1305,
+      "name": "TFA 22:1 t",
+      "unit": "G"
+    },
+    {
+      "id": 1306,
+      "name": "TFA 18:2 t not further defined",
+      "unit": "G"
+    },
+    {
+      "id": 1307,
+      "name": "PUFA 18:2 i",
+      "unit": "G"
+    },
+    {
+      "id": 1308,
+      "name": "PUFA 18:2 t,c",
+      "unit": "G"
+    },
+    {
+      "id": 1309,
+      "name": "PUFA 18:2 c,t",
+      "unit": "G"
+    },
+    {
+      "id": 1310,
+      "name": "TFA 18:2 t,t",
+      "unit": "G"
+    },
+    {
+      "id": 1311,
+      "name": "PUFA 18:2 CLAs",
+      "unit": "G"
+    },
+    {
+      "id": 1312,
+      "name": "MUFA 24:1 c",
+      "unit": "G"
+    },
+    {
+      "id": 1313,
+      "name": "PUFA 20:2 n-6 c,c",
+      "unit": "G"
+    },
+    {
+      "id": 1314,
+      "name": "MUFA 16:1 c",
+      "unit": "G"
+    },
+    {
+      "id": 1315,
+      "name": "MUFA 18:1 c",
+      "unit": "G"
+    },
+    {
+      "id": 1316,
+      "name": "PUFA 18:2 n-6 c,c",
+      "unit": "G"
+    },
+    {
+      "id": 1317,
+      "name": "MUFA 22:1 c",
+      "unit": "G"
+    },
+    {
+      "id": 1321,
+      "name": "PUFA 18:3 n-6 c,c,c",
+      "unit": "G"
+    },
+    {
+      "id": 1322,
+      "name": "SFA 19:0",
+      "unit": "G"
+    },
+    {
+      "id": 1323,
+      "name": "MUFA 17:1",
+      "unit": "G"
+    },
+    {
+      "id": 1324,
+      "name": "PUFA 16:2",
+      "unit": "G"
+    },
+    {
+      "id": 1325,
+      "name": "PUFA 20:3",
+      "unit": "G"
+    },
+    {
+      "id": 1332,
+      "name": "SFA 13:0",
+      "unit": "G"
+    },
+    {
+      "id": 1333,
+      "name": "MUFA 15:1",
+      "unit": "G"
+    },
+    {
+      "id": 1334,
+      "name": "PUFA 22:2",
+      "unit": "G"
+    },
+    {
+      "id": 1335,
+      "name": "SFA 11:0",
+      "unit": "G"
+    },
+    {
+      "id": 1336,
+      "name": "ORAC, Hydrophyllic",
+      "unit": "UMOL_TE"
+    },
+    {
+      "id": 1337,
+      "name": "ORAC, Lipophillic",
+      "unit": "UMOL_TE"
+    },
+    {
+      "id": 1338,
+      "name": "ORAC, Total",
+      "unit": "UMOL_TE"
+    },
+    {
+      "id": 1339,
+      "name": "Total Phenolics",
+      "unit": "MG_GAE"
+    },
+    {
+      "id": 1340,
+      "name": "Daidzein",
+      "unit": "MG"
+    },
+    {
+      "id": 1341,
+      "name": "Genistein",
+      "unit": "MG"
+    },
+    {
+      "id": 1342,
+      "name": "Glycitein",
+      "unit": "MG"
+    },
+    {
+      "id": 1343,
+      "name": "Isoflavones",
+      "unit": "MG"
+    },
+    {
+      "id": 1344,
+      "name": "Biochanin A",
+      "unit": "MG"
+    },
+    {
+      "id": 1345,
+      "name": "Formononetin",
+      "unit": "MG"
+    },
+    {
+      "id": 1346,
+      "name": "Coumestrol",
+      "unit": "MG"
+    },
+    {
+      "id": 1347,
+      "name": "Flavonoids, total",
+      "unit": "MG"
+    },
+    {
+      "id": 1348,
+      "name": "Anthocyanidins",
+      "unit": "MG"
+    },
+    {
+      "id": 1349,
+      "name": "Cyanidin",
+      "unit": "MG"
+    },
+    {
+      "id": 1350,
+      "name": "Proanthocyanidin (dimer-A linkage)",
+      "unit": "MG"
+    },
+    {
+      "id": 1351,
+      "name": "Proanthocyanidin monomers",
+      "unit": "MG"
+    },
+    {
+      "id": 1352,
+      "name": "Proanthocyanidin dimers",
+      "unit": "MG"
+    },
+    {
+      "id": 1353,
+      "name": "Proanthocyanidin trimers",
+      "unit": "MG"
+    },
+    {
+      "id": 1354,
+      "name": "Proanthocyanidin 4-6mers",
+      "unit": "MG"
+    },
+    {
+      "id": 1355,
+      "name": "Proanthocyanidin 7-10mers",
+      "unit": "MG"
+    },
+    {
+      "id": 1356,
+      "name": "Proanthocyanidin polymers (>10mers)",
+      "unit": "MG"
+    },
+    {
+      "id": 1357,
+      "name": "Delphinidin",
+      "unit": "MG"
+    },
+    {
+      "id": 1358,
+      "name": "Malvidin",
+      "unit": "MG"
+    },
+    {
+      "id": 1359,
+      "name": "Pelargonidin",
+      "unit": "MG"
+    },
+    {
+      "id": 1360,
+      "name": "Peonidin",
+      "unit": "MG"
+    },
+    {
+      "id": 1361,
+      "name": "Petunidin",
+      "unit": "MG"
+    },
+    {
+      "id": 1362,
+      "name": "Flavans, total",
+      "unit": "MG"
+    },
+    {
+      "id": 1363,
+      "name": "Catechins, total",
+      "unit": "MG"
+    },
+    {
+      "id": 1364,
+      "name": "Catechin",
+      "unit": "MG"
+    },
+    {
+      "id": 1365,
+      "name": "Epigallocatechin",
+      "unit": "MG"
+    },
+    {
+      "id": 1366,
+      "name": "Epicatechin",
+      "unit": "MG"
+    },
+    {
+      "id": 1367,
+      "name": "Epicatechin-3-gallate",
+      "unit": "MG"
+    },
+    {
+      "id": 1368,
+      "name": "Epigallocatechin-3-gallate",
+      "unit": "MG"
+    },
+    {
+      "id": 1369,
+      "name": "Procyanidins, total",
+      "unit": "MG"
+    },
+    {
+      "id": 1370,
+      "name": "Theaflavins",
+      "unit": "MG"
+    },
+    {
+      "id": 1371,
+      "name": "Thearubigins",
+      "unit": "MG"
+    },
+    {
+      "id": 1372,
+      "name": "Flavanones, total",
+      "unit": "MG"
+    },
+    {
+      "id": 1373,
+      "name": "Eriodictyol",
+      "unit": "MG"
+    },
+    {
+      "id": 1374,
+      "name": "Hesperetin",
+      "unit": "MG"
+    },
+    {
+      "id": 1375,
+      "name": "Isosakuranetin",
+      "unit": "MG"
+    },
+    {
+      "id": 1376,
+      "name": "Liquiritigenin",
+      "unit": "MG"
+    },
+    {
+      "id": 1377,
+      "name": "Naringenin",
+      "unit": "MG"
+    },
+    {
+      "id": 1378,
+      "name": "Flavones, total",
+      "unit": "MG"
+    },
+    {
+      "id": 1379,
+      "name": "Apigenin",
+      "unit": "MG"
+    },
+    {
+      "id": 1380,
+      "name": "Chrysoeriol",
+      "unit": "MG"
+    },
+    {
+      "id": 1381,
+      "name": "Diosmetin",
+      "unit": "MG"
+    },
+    {
+      "id": 1382,
+      "name": "Luteolin",
+      "unit": "MG"
+    },
+    {
+      "id": 1383,
+      "name": "Nobiletin",
+      "unit": "MG"
+    },
+    {
+      "id": 1384,
+      "name": "Sinensetin",
+      "unit": "MG"
+    },
+    {
+      "id": 1385,
+      "name": "Tangeretin",
+      "unit": "MG"
+    },
+    {
+      "id": 1386,
+      "name": "Flavonols, total",
+      "unit": "MG"
+    },
+    {
+      "id": 1387,
+      "name": "Isorhamnetin",
+      "unit": "MG"
+    },
+    {
+      "id": 1388,
+      "name": "Kaempferol",
+      "unit": "MG"
+    },
+    {
+      "id": 1389,
+      "name": "Limocitrin",
+      "unit": "MG"
+    },
+    {
+      "id": 1390,
+      "name": "Myricetin",
+      "unit": "MG"
+    },
+    {
+      "id": 1391,
+      "name": "Quercetin",
+      "unit": "MG"
+    },
+    {
+      "id": 1392,
+      "name": "Theogallin",
+      "unit": "MG"
+    },
+    {
+      "id": 1393,
+      "name": "Theaflavin -3,3' -digallate",
+      "unit": "MG"
+    },
+    {
+      "id": 1394,
+      "name": "Theaflavin -3' -gallate",
+      "unit": "MG"
+    },
+    {
+      "id": 1395,
+      "name": "Theaflavin -3 -gallate",
+      "unit": "MG"
+    },
+    {
+      "id": 1396,
+      "name": "(+) -Gallo catechin",
+      "unit": "MG"
+    },
+    {
+      "id": 1397,
+      "name": "(+)-Catechin 3-gallate",
+      "unit": "MG"
+    },
+    {
+      "id": 1398,
+      "name": "(+)-Gallocatechin 3-gallate",
+      "unit": "MG"
+    },
+    {
+      "id": 1399,
+      "name": "Mannose",
+      "unit": "G"
+    },
+    {
+      "id": 1400,
+      "name": "Triose",
+      "unit": "G"
+    },
+    {
+      "id": 1401,
+      "name": "Tetrose",
+      "unit": "G"
+    },
+    {
+      "id": 1402,
+      "name": "Other Saccharides",
+      "unit": "G"
+    },
+    {
+      "id": 1403,
+      "name": "Inulin",
+      "unit": "G"
+    },
+    {
+      "id": 1404,
+      "name": "PUFA 18:3 n-3 c,c,c (ALA)",
+      "unit": "G"
+    },
+    {
+      "id": 1405,
+      "name": "PUFA 20:3 n-3",
+      "unit": "G"
+    },
+    {
+      "id": 1406,
+      "name": "PUFA 20:3 n-6",
+      "unit": "G"
+    },
+    {
+      "id": 1407,
+      "name": "PUFA 20:4 n-3",
+      "unit": "G"
+    },
+    {
+      "id": 1408,
+      "name": "PUFA 20:4 n-6",
+      "unit": "G"
+    },
+    {
+      "id": 1409,
+      "name": "PUFA 18:3i",
+      "unit": "G"
+    },
+    {
+      "id": 1410,
+      "name": "PUFA 21:5",
+      "unit": "G"
+    },
+    {
+      "id": 1411,
+      "name": "PUFA 22:4",
+      "unit": "G"
+    },
+    {
+      "id": 1412,
+      "name": "MUFA 18:1-11 t (18:1t n-7)",
+      "unit": "G"
+    },
+    {
+      "id": 1413,
+      "name": "MUFA 18:1-11 c (18:1c n-7)",
+      "unit": "G"
+    },
+    {
+      "id": 1414,
+      "name": "PUFA 20:3 n-9",
+      "unit": "G"
+    },
+    {
+      "id": 2003,
+      "name": "SFA 5:0",
+      "unit": "G"
+    },
+    {
+      "id": 2004,
+      "name": "SFA 7:0",
+      "unit": "G"
+    },
+    {
+      "id": 2005,
+      "name": "SFA 9:0",
+      "unit": "G"
+    },
+    {
+      "id": 2006,
+      "name": "SFA 21:0",
+      "unit": "G"
+    },
+    {
+      "id": 2007,
+      "name": "SFA 23:0",
+      "unit": "G"
+    },
+    {
+      "id": 2008,
+      "name": "MUFA 12:1",
+      "unit": "G"
+    },
+    {
+      "id": 2009,
+      "name": "MUFA 14:1 c",
+      "unit": "G"
+    },
+    {
+      "id": 2010,
+      "name": "MUFA 17:1 c",
+      "unit": "G"
+    },
+    {
+      "id": 2011,
+      "name": "TFA 17:1 t",
+      "unit": "G"
+    },
+    {
+      "id": 2012,
+      "name": "MUFA 20:1 c",
+      "unit": "G"
+    },
+    {
+      "id": 2013,
+      "name": "TFA 20:1 t",
+      "unit": "G"
+    },
+    {
+      "id": 2014,
+      "name": "MUFA 22:1 n-9",
+      "unit": "G"
+    },
+    {
+      "id": 2015,
+      "name": "MUFA 22:1 n-11",
+      "unit": "G"
+    },
+    {
+      "id": 2016,
+      "name": "PUFA 18:2 c",
+      "unit": "G"
+    },
+    {
+      "id": 2017,
+      "name": "TFA 18:2 t",
+      "unit": "G"
+    },
+    {
+      "id": 2018,
+      "name": "PUFA 18:3 c",
+      "unit": "G"
+    },
+    {
+      "id": 2019,
+      "name": "TFA 18:3 t",
+      "unit": "G"
+    },
+    {
+      "id": 2020,
+      "name": "PUFA 20:3 c",
+      "unit": "G"
+    },
+    {
+      "id": 2021,
+      "name": "PUFA 22:3",
+      "unit": "G"
+    },
+    {
+      "id": 2022,
+      "name": "PUFA 20:4c",
+      "unit": "G"
+    },
+    {
+      "id": 2023,
+      "name": "PUFA 20:5c",
+      "unit": "G"
+    },
+    {
+      "id": 2024,
+      "name": "PUFA 22:5 c",
+      "unit": "G"
+    },
+    {
+      "id": 2025,
+      "name": "PUFA 22:6 c",
+      "unit": "G"
+    },
+    {
+      "id": 2026,
+      "name": "PUFA 20:2 c",
+      "unit": "G"
+    },
+    {
+      "id": 2027,
+      "name": "Proximate",
+      "unit": "G"
+    },
+    {
+      "id": 2028,
+      "name": "trans-beta-Carotene",
+      "unit": "UG"
+    },
+    {
+      "id": 2029,
+      "name": "trans-Lycopene",
+      "unit": "UG"
+    },
+    {
+      "id": 2032,
+      "name": "Cryptoxanthin, alpha",
+      "unit": "UG"
+    },
+    {
+      "id": 2040,
+      "name": "Other carotenoids",
+      "unit": "UG"
+    },
+    {
+      "id": 2041,
+      "name": "Tocopherols and tocotrienols",
+      "unit": "MG"
+    },
+    {
+      "id": 2042,
+      "name": "Amino acids",
+      "unit": "G"
+    },
+    {
+      "id": 2043,
+      "name": "Minerals",
+      "unit": "MG"
+    },
+    {
+      "id": 2045,
+      "name": "Proximates",
+      "unit": "G"
+    },
+    {
+      "id": 2055,
+      "name": "Total Tocopherols",
+      "unit": "MG"
+    },
+    {
+      "id": 2054,
+      "name": "Total Tocotrienols",
+      "unit": "MG"
+    },
+    {
+      "id": 2053,
+      "name": "Stigmastadiene",
+      "unit": "MG"
+    },
+    {
+      "id": 2052,
+      "name": "Delta-7-Stigmastenol",
+      "unit": "MG"
+    },
+    {
+      "id": 2049,
+      "name": "Daidzin",
+      "unit": "MG"
+    },
+    {
+      "id": 2050,
+      "name": "Genistin",
+      "unit": "MG"
+    },
+    {
+      "id": 2051,
+      "name": "Glycitin",
+      "unit": "MG"
+    },
+    {
+      "id": 2057,
+      "name": "Ergothioneine",
+      "unit": "MG"
+    },
+    {
+      "id": 2058,
+      "name": "Beta-glucan",
+      "unit": "G"
+    },
+    {
+      "id": 2060,
+      "name": "Ergosta-7-enol",
+      "unit": "MG"
+    },
+    {
+      "id": 2061,
+      "name": "Ergosta-7,22-dienol",
+      "unit": "MG"
+    },
+    {
+      "id": 2062,
+      "name": "Ergosta-5,7-dienol",
+      "unit": "MG"
+    },
+    {
+      "id": 2063,
+      "name": "Verbascose",
+      "unit": "G"
+    },
+    {
+      "id": 2064,
+      "name": "Oligosaccharides",
+      "unit": "MG"
+    },
+    {
+      "id": 2069,
+      "name": "Glutathione",
+      "unit": "MG"
+    }
+  ]
+}

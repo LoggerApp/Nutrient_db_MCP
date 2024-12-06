@@ -1,0 +1,6144 @@
+{
+  "table_analysis": {
+    "food.csv": {
+      "filename": "food.csv",
+      "columns": [
+        "fdc_id",
+        "data_type",
+        "description",
+        "food_category_id",
+        "publication_date"
+      ],
+      "total_rows": 2059641,
+      "data_types": {
+        "fdc_id": "int64",
+        "data_type": "object",
+        "description": "object",
+        "food_category_id": "object",
+        "publication_date": "object"
+      },
+      "null_counts": {
+        "fdc_id": 0,
+        "data_type": 0,
+        "description": 9,
+        "food_category_id": 12689,
+        "publication_date": 0
+      },
+      "null_percentages": {
+        "fdc_id": 0.0,
+        "data_type": 0.0,
+        "description": 0.0,
+        "food_category_id": 0.62,
+        "publication_date": 0.0
+      },
+      "unique_counts": {
+        "fdc_id": 2059641,
+        "data_type": 9,
+        "description": 490277,
+        "food_category_id": 645,
+        "publication_date": 112
+      },
+      "sample_values": {
+        "fdc_id": [
+          1105904,
+          1105905,
+          1105906,
+          1105907,
+          1105898
+        ],
+        "data_type": [
+          "branded_food",
+          "branded_food",
+          "branded_food",
+          "branded_food",
+          "experimental_food"
+        ],
+        "description": [
+          "WESSON Vegetable Oil 1 GAL",
+          "SWANSON BROTH BEEF",
+          "CAMPBELL'S SLOW KETTLE SOUP CLAM CHOWDER",
+          "CAMPBELL'S SLOW KETTLE SOUP CHEESE BROCCOLI",
+          "Discrepancy between the Atwater factor predicted and empirically measured energy values of almonds in human diets"
+        ],
+        "food_category_id": [
+          "Oils Edible",
+          "Herbs/Spices/Extracts",
+          "Prepared Soups",
+          "Prepared Soups",
+          "Herbs/Spices/Extracts"
+        ],
+        "publication_date": [
+          "2020-11-13",
+          "2020-11-13",
+          "2020-11-13",
+          "2020-11-13",
+          "2020-10-30"
+        ]
+      },
+      "value_counts": {
+        "data_type": {
+          "branded_food": 1977404,
+          "sub_sample_food": 57128,
+          "sr_legacy_food": 7793,
+          "market_acquistion": 7032,
+          "survey_fndds_food": 5432
+        }
+      },
+      "numeric_stats": {
+        "fdc_id": {
+          "min": 167512,
+          "max": 2717714,
+          "mean": 1593189.2916163546,
+          "median": 1640970.0,
+          "std": 693198.5901155907
+        }
+      }
+    },
+    "food_nutrient.csv": {
+      "filename": "food_nutrient.csv",
+      "columns": [
+        "id",
+        "fdc_id",
+        "nutrient_id",
+        "amount",
+        "data_points",
+        "derivation_id",
+        "min",
+        "max",
+        "median",
+        "loq",
+        "footnote",
+        "min_year_acquired",
+        "percent_daily_value"
+      ],
+      "total_rows": 26770242,
+      "data_types": {
+        "id": "int64",
+        "fdc_id": "int64",
+        "nutrient_id": "int64",
+        "amount": "float64",
+        "data_points": "float64",
+        "derivation_id": "float64",
+        "min": "float64",
+        "max": "float64",
+        "median": "float64",
+        "loq": "float64",
+        "footnote": "object",
+        "min_year_acquired": "float64",
+        "percent_daily_value": "float64"
+      },
+      "null_counts": {
+        "id": 0,
+        "fdc_id": 0,
+        "nutrient_id": 0,
+        "amount": 0,
+        "data_points": 25979906,
+        "derivation_id": 535740,
+        "min": 26658499,
+        "max": 26658497,
+        "median": 26754788,
+        "loq": 26763110,
+        "footnote": 26770220,
+        "min_year_acquired": 26740577,
+        "percent_daily_value": 6669746
+      },
+      "null_percentages": {
+        "id": 0.0,
+        "fdc_id": 0.0,
+        "nutrient_id": 0.0,
+        "amount": 0.0,
+        "data_points": 97.05,
+        "derivation_id": 2.0,
+        "min": 99.58,
+        "max": 99.58,
+        "median": 99.94,
+        "loq": 99.97,
+        "footnote": 100.0,
+        "min_year_acquired": 99.89,
+        "percent_daily_value": 24.91
+      },
+      "unique_counts": {
+        "id": 26770242,
+        "fdc_id": 1944807,
+        "nutrient_id": 268,
+        "amount": 33061,
+        "data_points": 396,
+        "derivation_id": 66,
+        "min": 7642,
+        "max": 8599,
+        "median": 3836,
+        "loq": 186,
+        "footnote": 4,
+        "min_year_acquired": 23,
+        "percent_daily_value": 1691
+      },
+      "sample_values": {
+        "id": [
+          13706927,
+          13706930,
+          13706926,
+          13706921,
+          13706916
+        ],
+        "fdc_id": [
+          1105904,
+          1105904,
+          1105904,
+          1105904,
+          1105904
+        ],
+        "nutrient_id": [
+          1257,
+          1293,
+          1253,
+          1092,
+          1008
+        ],
+        "amount": [
+          0.0,
+          53.33,
+          0.0,
+          0.0,
+          867.0
+        ],
+        "data_points": [
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "derivation_id": [
+          71.0,
+          71.0,
+          75.0,
+          75.0,
+          71.0
+        ],
+        "min": [
+          35.18,
+          0.02,
+          0.0,
+          2.33,
+          3.36
+        ],
+        "max": [
+          35.84,
+          0.05,
+          0.0,
+          3.39,
+          5.24
+        ],
+        "median": [
+          0.0,
+          1.43,
+          0.0,
+          1.21,
+          70.4
+        ],
+        "loq": [
+          0.08,
+          0.08,
+          0.01,
+          0.2,
+          0.25
+        ],
+        "footnote": [
+          "1,3:1,6 beta-glucans were determined with the Megazyme Mushroom and Yeast Test Kit (K-YBGL), using sulfuric acid for hydrolysis. The method involves quantification of glucose in acid-hydrolyzed samples after enzymatic digestion with exo-1,3-beta-glucanase and beta-glucosidase and subtraction of the contribution of glucose from alpha-glucans, free sucrose and glucose, as reported by McCleary and Draga (J AOAC Int. 2016 Mar-Apr;99(2):364-73). In this release, data for beta-glucan in mushrooms, except Agaricus bisporus (white button, crimini, portabella) have been replaced with results from analysis using the updated protocol which has trehalase enzyme added to the protocol, addressing potential overestimation of \u03b2-glucan content in samples containing trehalose (K-YBGL, 08/23. Previously K-YBGL, 11/19). Values for Agaricus mushrooms were not updated due to low levels of beta-glucan and no difference beyond analytical uncertainty resulting from the modified procedure.",
+          "Results for individual samples should be interpreted taking into account measurement uncertainty. The percent relative standard deviation ranged from 0.8-32.7, mean 10.4, median 5.9 (n=10).",
+          "Results for individual samples should be interpreted taking into account measurement uncertainty. The percent relative standard deviation ranged from 0.8-32.7, mean 10.4, median 5.9 (n=10).",
+          "1,3:1,6 beta-glucans were determined with the Megazyme Mushroom and Yeast Test Kit (K-YBGL), using sulfuric acid for hydrolysis. The method involves quantification of glucose in acid-hydrolyzed samples after enzymatic digestion with exo-1,3-beta-glucanase and beta-glucosidase and subtraction of the contribution of glucose from alpha-glucans, free sucrose and glucose, as reported by McCleary and Draga (J AOAC Int. 2016 Mar-Apr;99(2):364-73). In this release, data for beta-glucan in mushrooms, except Agaricus bisporus (white button, crimini, portabella) have been replaced with results from analysis using the updated protocol which has trehalase enzyme added to the protocol, addressing potential overestimation of \u03b2-glucan content in samples containing trehalose (K-YBGL, 08/23. Previously K-YBGL, 11/19). Values for Agaricus mushrooms were not updated due to low levels of beta-glucan and no difference beyond analytical uncertainty resulting from the modified procedure.",
+          "Results for individual samples should be interpreted taking into account measurement uncertainty. The percent relative standard deviation ranged from 0.8-32.7, mean 10.4, median 5.9 (n=10)."
+        ],
+        "min_year_acquired": [
+          2015.0,
+          2015.0,
+          2015.0,
+          2015.0,
+          2015.0
+        ],
+        "percent_daily_value": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "value_counts": {
+        "footnote": {
+          "Results for individual samples should be interpreted taking into account measurement uncertainty. The percent relative standard deviation ranged from 0.8-32.7, mean 10.4, median 5.9 (n=10).": 11,
+          "1,3:1,6 beta-glucans were determined with the Megazyme Mushroom and Yeast Test Kit (K-YBGL), using sulfuric acid for hydrolysis. The method involves quantification of glucose in acid-hydrolyzed samples after enzymatic digestion with exo-1,3-beta-glucanase and beta-glucosidase and subtraction of the contribution of glucose from alpha-glucans, free sucrose and glucose, as reported by McCleary and Draga (J AOAC Int. 2016 Mar-Apr;99(2):364-73). In this release, data for beta-glucan in mushrooms, except Agaricus bisporus (white button, crimini, portabella) have been replaced with results from analysis using the updated protocol which has trehalase enzyme added to the protocol, addressing potential overestimation of \u03b2-glucan content in samples containing trehalose (K-YBGL, 08/23. Previously K-YBGL, 11/19). Values for Agaricus mushrooms were not updated due to low levels of beta-glucan and no difference beyond analytical uncertainty resulting from the modified procedure.": 8,
+          "1,3:1,6 beta-glucans were determined with the Megazyme Mushroom and Yeast Test Kit (K-YBGL), using sulfuric acid for hydrolysis. The method involves quantification of glucose in acid-hydrolyzed samples after enzymatic digestion with exo-1,3-beta-glucanase and beta-glucosidase and subtraction of the contribution of glucose from alpha-glucans, free sucrose and glucose, as reported by McCleary and Draga (J AOAC Int. 2016 Mar-Apr;99(2):364-73). Results should be interpreted based on the assumptions inherent in the methodology, as well as the measurement uncertainty for individual samples (Percent relative standard deviation for sample replicates: 0.0-35.4, mean 9.1, median 6.5, n=24). Update: A product notification update reports that the inclusion of the enzyme trehalase in the Megazyme beta-glucan assay kit causes an overestimation in samples that contain trehalose.": 3
+        }
+      },
+      "numeric_stats": {
+        "id": {
+          "min": 1283674,
+          "max": 34530272,
+          "mean": 19222988.08941167,
+          "median": 19979727.5,
+          "std": 9421995.888050556
+        },
+        "fdc_id": {
+          "min": 167512,
+          "max": 2717714,
+          "mean": 1590517.4626383653,
+          "median": 1669291.0,
+          "std": 729558.286539179
+        },
+        "nutrient_id": {
+          "min": 1002,
+          "max": 2069,
+          "mean": 1172.7052384883184,
+          "median": 1093.0,
+          "std": 242.25955234633034
+        },
+        "amount": {
+          "min": 0.0,
+          "max": 7500000000.0,
+          "mean": 762.383995366938,
+          "median": 3.7,
+          "std": 1475933.167834596
+        },
+        "data_points": {
+          "min": 0.0,
+          "max": 2526.0,
+          "mean": 2.4129863754150134,
+          "median": 0.0,
+          "std": 16.202773187011324
+        },
+        "derivation_id": {
+          "min": 1.0,
+          "max": 79.0,
+          "mean": 70.63890406610348,
+          "median": 70.0,
+          "std": 8.769794149044971
+        },
+        "min": {
+          "min": 0.0,
+          "max": 37200.0,
+          "mean": 25.15509881880744,
+          "median": 0.081,
+          "std": 254.7089197186745
+        },
+        "max": {
+          "min": 0.0,
+          "max": 56000.0,
+          "mean": 40.9266916228019,
+          "median": 0.192,
+          "std": 489.1859875978069
+        },
+        "median": {
+          "min": 0.0,
+          "max": 38500.0,
+          "mean": 47.069317462533974,
+          "median": 0.31525000000000003,
+          "std": 507.25571074123565
+        },
+        "loq": {
+          "min": 0.0,
+          "max": 10000.0,
+          "mean": 4.677964241446999,
+          "median": 0.25,
+          "std": 118.71307408250922
+        },
+        "min_year_acquired": {
+          "min": 1999.0,
+          "max": 2024.0,
+          "mean": 2015.961874262599,
+          "median": 2016.0,
+          "std": 4.605930905638676
+        },
+        "percent_daily_value": {
+          "min": -4.0,
+          "max": 33330.0,
+          "mean": 7.127325691232461,
+          "median": 2.0,
+          "std": 46.27995620235097
+        }
+      }
+    },
+    "nutrient.csv": {
+      "filename": "nutrient.csv",
+      "columns": [
+        "id",
+        "name",
+        "unit_name",
+        "nutrient_nbr",
+        "rank"
+      ],
+      "total_rows": 477,
+      "data_types": {
+        "id": "int64",
+        "name": "object",
+        "unit_name": "object",
+        "nutrient_nbr": "float64",
+        "rank": "float64"
+      },
+      "null_counts": {
+        "id": 0,
+        "name": 0,
+        "unit_name": 0,
+        "nutrient_nbr": 12,
+        "rank": 11
+      },
+      "null_percentages": {
+        "id": 0.0,
+        "name": 0.0,
+        "unit_name": 0.0,
+        "nutrient_nbr": 2.52,
+        "rank": 2.31
+      },
+      "unique_counts": {
+        "id": 477,
+        "name": 474,
+        "unit_name": 12,
+        "nutrient_nbr": 466,
+        "rank": 357
+      },
+      "sample_values": {
+        "id": [
+          2047,
+          2048,
+          1001,
+          1002,
+          1003
+        ],
+        "name": [
+          "Energy (Atwater General Factors)",
+          "Energy (Atwater Specific Factors)",
+          "Solids",
+          "Nitrogen",
+          "Protein"
+        ],
+        "unit_name": [
+          "KCAL",
+          "KCAL",
+          "G",
+          "G",
+          "G"
+        ],
+        "nutrient_nbr": [
+          957.0,
+          958.0,
+          201.0,
+          202.0,
+          203.0
+        ],
+        "rank": [
+          280.0,
+          290.0,
+          200.0,
+          500.0,
+          600.0
+        ]
+      },
+      "value_counts": {
+        "unit_name": {
+          "G": 205,
+          "MG": 186,
+          "UG": 70,
+          "KCAL": 3,
+          "IU": 3
+        }
+      },
+      "numeric_stats": {
+        "id": {
+          "min": 1001,
+          "max": 2069,
+          "mean": 1318.3480083857442,
+          "median": 1239.0,
+          "std": 303.6114771478494
+        },
+        "nutrient_nbr": {
+          "min": 200.0,
+          "max": 961.0,
+          "mean": 518.5763225806452,
+          "median": 511.0,
+          "std": 210.7162996709267
+        },
+        "rank": {
+          "min": 50.0,
+          "max": 999999.0,
+          "mean": 231606.49356223177,
+          "median": 14350.0,
+          "std": 412336.18820404535
+        }
+      }
+    },
+    "food_portion.csv": {
+      "filename": "food_portion.csv",
+      "columns": [
+        "id",
+        "fdc_id",
+        "seq_num",
+        "amount",
+        "measure_unit_id",
+        "portion_description",
+        "modifier",
+        "gram_weight",
+        "data_points",
+        "footnote",
+        "min_year_acquired"
+      ],
+      "total_rows": 47173,
+      "data_types": {
+        "id": "int64",
+        "fdc_id": "int64",
+        "seq_num": "float64",
+        "amount": "float64",
+        "measure_unit_id": "int64",
+        "portion_description": "object",
+        "modifier": "object",
+        "gram_weight": "float64",
+        "data_points": "float64",
+        "footnote": "float64",
+        "min_year_acquired": "float64"
+      },
+      "null_counts": {
+        "id": 0,
+        "fdc_id": 0,
+        "seq_num": 10455,
+        "amount": 22046,
+        "measure_unit_id": 0,
+        "portion_description": 25126,
+        "modifier": 1964,
+        "gram_weight": 0,
+        "data_points": 33020,
+        "footnote": 47173,
+        "min_year_acquired": 46986
+      },
+      "null_percentages": {
+        "id": 0.0,
+        "fdc_id": 0.0,
+        "seq_num": 22.16,
+        "amount": 46.73,
+        "measure_unit_id": 0.0,
+        "portion_description": 53.26,
+        "modifier": 4.16,
+        "gram_weight": 0.0,
+        "data_points": 70.0,
+        "footnote": 100.0,
+        "min_year_acquired": 99.6
+      },
+      "unique_counts": {
+        "id": 47173,
+        "fdc_id": 15245,
+        "seq_num": 33,
+        "amount": 64,
+        "measure_unit_id": 37,
+        "portion_description": 1136,
+        "modifier": 3052,
+        "gram_weight": 1763,
+        "data_points": 134,
+        "footnote": 1,
+        "min_year_acquired": 17
+      },
+      "sample_values": {
+        "id": [
+          81549,
+          81550,
+          81551,
+          81552,
+          81553
+        ],
+        "fdc_id": [
+          167512,
+          167513,
+          167514,
+          167515,
+          167516
+        ],
+        "seq_num": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "amount": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "measure_unit_id": [
+          9999,
+          9999,
+          9999,
+          9999,
+          9999
+        ],
+        "portion_description": [
+          "shredded",
+          "1 cup",
+          "Quantity not specified",
+          "1 fl oz",
+          "1 cup"
+        ],
+        "modifier": [
+          "serving",
+          "serving 1 roll with icing",
+          "serving",
+          "serving",
+          "waffle, square"
+        ],
+        "gram_weight": [
+          34.0,
+          44.0,
+          28.0,
+          57.0,
+          39.0
+        ],
+        "data_points": [
+          1.0,
+          10.0,
+          40.0,
+          8.0,
+          10.0
+        ],
+        "footnote": [],
+        "min_year_acquired": [
+          2015.0,
+          2018.0,
+          2018.0,
+          2018.0,
+          2016.0
+        ]
+      },
+      "value_counts": {
+        "measure_unit_id": {
+          "9999": 36545,
+          "1099": 6129,
+          "1119": 916,
+          "1000": 585,
+          "1011": 528
+        }
+      },
+      "numeric_stats": {
+        "id": {
+          "min": 81549,
+          "max": 312551,
+          "mean": 207753.63508786805,
+          "median": 193385.0,
+          "std": 95285.11165106665
+        },
+        "fdc_id": {
+          "min": 167512,
+          "max": 2710777,
+          "mean": 1462764.3033302948,
+          "median": 748865.0,
+          "std": 1183128.7975295065
+        },
+        "seq_num": {
+          "min": 0.0,
+          "max": 32.0,
+          "mean": 2.7863445721444524,
+          "median": 2.0,
+          "std": 2.342124718609916
+        },
+        "amount": {
+          "min": 0.0,
+          "max": 240.0,
+          "mean": 1.4328423608071,
+          "median": 1.0,
+          "std": 3.8022105672551865
+        },
+        "measure_unit_id": {
+          "min": 1000,
+          "max": 9999,
+          "mean": 7988.935725944926,
+          "median": 9999.0,
+          "std": 3727.417113973149
+        },
+        "gram_weight": {
+          "min": 0.0,
+          "max": 6000.0,
+          "mean": 136.21318593263098,
+          "median": 85.0,
+          "std": 206.16600787595453
+        },
+        "data_points": {
+          "min": 0.0,
+          "max": 1587.0,
+          "mean": 5.809369038366424,
+          "median": 1.0,
+          "std": 28.153499539068306
+        },
+        "footnote": {
+          "min": null,
+          "max": null,
+          "mean": null,
+          "median": null,
+          "std": null
+        },
+        "min_year_acquired": {
+          "min": 2000.0,
+          "max": 2019.0,
+          "mean": 2010.668449197861,
+          "median": 2013.0,
+          "std": 6.82714531656391
+        }
+      }
+    },
+    "food_category.csv": {
+      "filename": "food_category.csv",
+      "columns": [
+        "id",
+        "code",
+        "description"
+      ],
+      "total_rows": 28,
+      "data_types": {
+        "id": "int64",
+        "code": "int64",
+        "description": "object"
+      },
+      "null_counts": {
+        "id": 0,
+        "code": 0,
+        "description": 0
+      },
+      "null_percentages": {
+        "id": 0.0,
+        "code": 0.0,
+        "description": 0.0
+      },
+      "unique_counts": {
+        "id": 28,
+        "code": 28,
+        "description": 28
+      },
+      "sample_values": {
+        "id": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "code": [
+          100,
+          200,
+          300,
+          400,
+          500
+        ],
+        "description": [
+          "Dairy and Egg Products",
+          "Spices and Herbs",
+          "Baby Foods",
+          "Fats and Oils",
+          "Poultry Products"
+        ]
+      },
+      "value_counts": {
+        "id": {
+          "1": 1,
+          "2": 1,
+          "27": 1,
+          "26": 1,
+          "25": 1
+        },
+        "code": {
+          "100": 1,
+          "200": 1,
+          "2600": 1,
+          "4500": 1,
+          "3600": 1
+        },
+        "description": {
+          "Dairy and Egg Products": 1,
+          "Spices and Herbs": 1,
+          "Quality Control Materials": 1,
+          "Branded Food Products Database": 1,
+          "Restaurant Foods": 1
+        }
+      },
+      "numeric_stats": {
+        "id": {
+          "min": 1,
+          "max": 28,
+          "mean": 14.5,
+          "median": 14.5,
+          "std": 8.225975119502044
+        },
+        "code": {
+          "min": 100,
+          "max": 4500,
+          "mean": 1550.357142857143,
+          "median": 1405.0,
+          "std": 1073.3660524442173
+        }
+      }
+    }
+  },
+  "nutrient_analysis": {
+    "nutrient_counts": {
+      "total_nutrients": 477,
+      "total_food_nutrient_records": 26770242,
+      "unique_nutrient_ids_in_mapping": 268
+    },
+    "nutrient_details": {
+      "all_nutrients": [
+        {
+          "id": 2047,
+          "name": "Energy (Atwater General Factors)",
+          "unit_name": "KCAL"
+        },
+        {
+          "id": 2048,
+          "name": "Energy (Atwater Specific Factors)",
+          "unit_name": "KCAL"
+        },
+        {
+          "id": 1001,
+          "name": "Solids",
+          "unit_name": "G"
+        },
+        {
+          "id": 1002,
+          "name": "Nitrogen",
+          "unit_name": "G"
+        },
+        {
+          "id": 1003,
+          "name": "Protein",
+          "unit_name": "G"
+        },
+        {
+          "id": 1004,
+          "name": "Total lipid (fat)",
+          "unit_name": "G"
+        },
+        {
+          "id": 1005,
+          "name": "Carbohydrate, by difference",
+          "unit_name": "G"
+        },
+        {
+          "id": 1006,
+          "name": "Fiber, crude (DO NOT USE - Archived)",
+          "unit_name": "G"
+        },
+        {
+          "id": 1007,
+          "name": "Ash",
+          "unit_name": "G"
+        },
+        {
+          "id": 1008,
+          "name": "Energy",
+          "unit_name": "KCAL"
+        },
+        {
+          "id": 1009,
+          "name": "Starch",
+          "unit_name": "G"
+        },
+        {
+          "id": 1010,
+          "name": "Sucrose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1011,
+          "name": "Glucose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1012,
+          "name": "Fructose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1013,
+          "name": "Lactose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1014,
+          "name": "Maltose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1015,
+          "name": "Amylose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1016,
+          "name": "Amylopectin",
+          "unit_name": "G"
+        },
+        {
+          "id": 1017,
+          "name": "Pectin",
+          "unit_name": "G"
+        },
+        {
+          "id": 1018,
+          "name": "Alcohol, ethyl",
+          "unit_name": "G"
+        },
+        {
+          "id": 1019,
+          "name": "Pentosan",
+          "unit_name": "G"
+        },
+        {
+          "id": 1020,
+          "name": "Pentoses",
+          "unit_name": "G"
+        },
+        {
+          "id": 1021,
+          "name": "Hemicellulose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1022,
+          "name": "Cellulose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1023,
+          "name": "pH",
+          "unit_name": "PH"
+        },
+        {
+          "id": 1024,
+          "name": "Specific Gravity",
+          "unit_name": "SP_GR"
+        },
+        {
+          "id": 1025,
+          "name": "Organic acids",
+          "unit_name": "G"
+        },
+        {
+          "id": 1026,
+          "name": "Acetic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1027,
+          "name": "Aconitic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1028,
+          "name": "Benzoic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1029,
+          "name": "Chelidonic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1030,
+          "name": "Chlorogenic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1031,
+          "name": "Cinnamic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1032,
+          "name": "Citric acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1033,
+          "name": "Fumaric acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1034,
+          "name": "Galacturonic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1035,
+          "name": "Gallic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1036,
+          "name": "Glycolic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1037,
+          "name": "Isocitric acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1038,
+          "name": "Lactic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1039,
+          "name": "Malic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1040,
+          "name": "Oxaloacetic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1041,
+          "name": "Oxalic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1042,
+          "name": "Phytic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1043,
+          "name": "Pyruvic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1044,
+          "name": "Quinic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1045,
+          "name": "Salicylic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1046,
+          "name": "Succinic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1047,
+          "name": "Tartaric acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1048,
+          "name": "Ursolic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1049,
+          "name": "Solids, non-fat",
+          "unit_name": "G"
+        },
+        {
+          "id": 1050,
+          "name": "Carbohydrate, by summation",
+          "unit_name": "G"
+        },
+        {
+          "id": 1051,
+          "name": "Water",
+          "unit_name": "G"
+        },
+        {
+          "id": 1052,
+          "name": "Adjusted Nitrogen",
+          "unit_name": "G"
+        },
+        {
+          "id": 1053,
+          "name": "Adjusted Protein",
+          "unit_name": "G"
+        },
+        {
+          "id": 1054,
+          "name": "Piperine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1055,
+          "name": "Mannitol",
+          "unit_name": "G"
+        },
+        {
+          "id": 1056,
+          "name": "Sorbitol",
+          "unit_name": "G"
+        },
+        {
+          "id": 1057,
+          "name": "Caffeine",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1058,
+          "name": "Theobromine",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1059,
+          "name": "Nitrates",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1060,
+          "name": "Nitrites",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1061,
+          "name": "Nitrosamine,total",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1062,
+          "name": "Energy",
+          "unit_name": "kJ"
+        },
+        {
+          "id": 1063,
+          "name": "Sugars, Total",
+          "unit_name": "G"
+        },
+        {
+          "id": 1064,
+          "name": "Solids, soluble",
+          "unit_name": "G"
+        },
+        {
+          "id": 1065,
+          "name": "Glycogen",
+          "unit_name": "G"
+        },
+        {
+          "id": 1066,
+          "name": "Fiber, neutral detergent (DO NOT USE - Archived)",
+          "unit_name": "G"
+        },
+        {
+          "id": 1067,
+          "name": "Reducing sugars",
+          "unit_name": "G"
+        },
+        {
+          "id": 1068,
+          "name": "Beta-glucans",
+          "unit_name": "G"
+        },
+        {
+          "id": 1069,
+          "name": "Oligosaccharides",
+          "unit_name": "G"
+        },
+        {
+          "id": 1070,
+          "name": "Nonstarch polysaccharides",
+          "unit_name": "G"
+        },
+        {
+          "id": 1071,
+          "name": "Resistant starch",
+          "unit_name": "G"
+        },
+        {
+          "id": 1072,
+          "name": "Carbohydrate, other",
+          "unit_name": "G"
+        },
+        {
+          "id": 1073,
+          "name": "Arabinose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1074,
+          "name": "Xylose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1075,
+          "name": "Galactose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1076,
+          "name": "Raffinose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1077,
+          "name": "Stachyose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1078,
+          "name": "Xylitol",
+          "unit_name": "G"
+        },
+        {
+          "id": 1079,
+          "name": "Fiber, total dietary",
+          "unit_name": "G"
+        },
+        {
+          "id": 1080,
+          "name": "Lignin",
+          "unit_name": "G"
+        },
+        {
+          "id": 1081,
+          "name": "Ribose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1082,
+          "name": "Fiber, soluble",
+          "unit_name": "G"
+        },
+        {
+          "id": 1083,
+          "name": "Theophylline",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1084,
+          "name": "Fiber, insoluble",
+          "unit_name": "G"
+        },
+        {
+          "id": 1085,
+          "name": "Total fat (NLEA)",
+          "unit_name": "G"
+        },
+        {
+          "id": 1086,
+          "name": "Total sugar alcohols",
+          "unit_name": "G"
+        },
+        {
+          "id": 1087,
+          "name": "Calcium, Ca",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1088,
+          "name": "Chlorine, Cl",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1089,
+          "name": "Iron, Fe",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1090,
+          "name": "Magnesium, Mg",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1091,
+          "name": "Phosphorus, P",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1092,
+          "name": "Potassium, K",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1093,
+          "name": "Sodium, Na",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1094,
+          "name": "Sulfur, S",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1095,
+          "name": "Zinc, Zn",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1096,
+          "name": "Chromium, Cr",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1097,
+          "name": "Cobalt, Co",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1098,
+          "name": "Copper, Cu",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1099,
+          "name": "Fluoride, F",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1100,
+          "name": "Iodine, I",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1101,
+          "name": "Manganese, Mn",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1102,
+          "name": "Molybdenum, Mo",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1103,
+          "name": "Selenium, Se",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1104,
+          "name": "Vitamin A, IU",
+          "unit_name": "IU"
+        },
+        {
+          "id": 1105,
+          "name": "Retinol",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1106,
+          "name": "Vitamin A, RAE",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1107,
+          "name": "Carotene, beta",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1108,
+          "name": "Carotene, alpha",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1109,
+          "name": "Vitamin E (alpha-tocopherol)",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1110,
+          "name": "Vitamin D (D2 + D3), International Units",
+          "unit_name": "IU"
+        },
+        {
+          "id": 1111,
+          "name": "Vitamin D2 (ergocalciferol)",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1112,
+          "name": "Vitamin D3 (cholecalciferol)",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1113,
+          "name": "25-hydroxycholecalciferol",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1114,
+          "name": "Vitamin D (D2 + D3)",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1115,
+          "name": "25-hydroxyergocalciferol",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1116,
+          "name": "Phytoene",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1117,
+          "name": "Phytofluene",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1118,
+          "name": "Carotene, gamma",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1119,
+          "name": "Zeaxanthin",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1120,
+          "name": "Cryptoxanthin, beta",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1121,
+          "name": "Lutein",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1122,
+          "name": "Lycopene",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1123,
+          "name": "Lutein + zeaxanthin",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1124,
+          "name": "Vitamin E (label entry primarily)",
+          "unit_name": "IU"
+        },
+        {
+          "id": 1125,
+          "name": "Tocopherol, beta",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1126,
+          "name": "Tocopherol, gamma",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1127,
+          "name": "Tocopherol, delta",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1128,
+          "name": "Tocotrienol, alpha",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1129,
+          "name": "Tocotrienol, beta",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1130,
+          "name": "Tocotrienol, gamma",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1131,
+          "name": "Tocotrienol, delta",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1132,
+          "name": "Aluminum, Al",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1133,
+          "name": "Antimony, Sb",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1134,
+          "name": "Arsenic, As",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1135,
+          "name": "Barium, Ba",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1136,
+          "name": "Beryllium, Be",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1137,
+          "name": "Boron, B",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1138,
+          "name": "Bromine, Br",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1139,
+          "name": "Cadmium, Cd",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1140,
+          "name": "Gold, Au",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1141,
+          "name": "Iron, heme",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1142,
+          "name": "Iron, non-heme",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1143,
+          "name": "Lead, Pb",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1144,
+          "name": "Lithium, Li",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1145,
+          "name": "Mercury, Hg",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1146,
+          "name": "Nickel, Ni",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1147,
+          "name": "Rubidium, Rb",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1148,
+          "name": "Fluoride - DO NOT USE; use 313",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1149,
+          "name": "Salt, NaCl",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1150,
+          "name": "Silicon, Si",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1151,
+          "name": "Silver, Ag",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1152,
+          "name": "Strontium, Sr",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1153,
+          "name": "Tin, Sn",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1154,
+          "name": "Titanium, Ti",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1155,
+          "name": "Vanadium, V",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1156,
+          "name": "Vitamin A, RE",
+          "unit_name": "MCG_RE"
+        },
+        {
+          "id": 1157,
+          "name": "Carotene",
+          "unit_name": "MCG_RE"
+        },
+        {
+          "id": 1158,
+          "name": "Vitamin E",
+          "unit_name": "MG_ATE"
+        },
+        {
+          "id": 1159,
+          "name": "cis-beta-Carotene",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1160,
+          "name": "cis-Lycopene",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1161,
+          "name": "cis-Lutein/Zeaxanthin",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1162,
+          "name": "Vitamin C, total ascorbic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1163,
+          "name": "Vitamin C, reduced ascorbic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1164,
+          "name": "Vitamin C, dehydro ascorbic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1165,
+          "name": "Thiamin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1166,
+          "name": "Riboflavin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1167,
+          "name": "Niacin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1168,
+          "name": "Niacin from tryptophan, determined",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1169,
+          "name": "Niacin equivalent N406 +N407",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1170,
+          "name": "Pantothenic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1171,
+          "name": "Vitamin B-6, pyridoxine, alcohol form",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1172,
+          "name": "Vitamin B-6, pyridoxal, aldehyde form",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1173,
+          "name": "Vitamin B-6, pyridoxamine, amine form",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1174,
+          "name": "Vitamin B-6, N411 + N412 +N413",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1175,
+          "name": "Vitamin B-6",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1176,
+          "name": "Biotin",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1177,
+          "name": "Folate, total",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1178,
+          "name": "Vitamin B-12",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1179,
+          "name": "Folate, free",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1180,
+          "name": "Choline, total",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1181,
+          "name": "Inositol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1182,
+          "name": "Inositol phosphate",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1183,
+          "name": "Vitamin K (Menaquinone-4)",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1184,
+          "name": "Vitamin K (Dihydrophylloquinone)",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1185,
+          "name": "Vitamin K (phylloquinone)",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1186,
+          "name": "Folic acid",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1187,
+          "name": "Folate, food",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1188,
+          "name": "5-methyl tetrahydrofolate (5-MTHF)",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1189,
+          "name": "Folate, not 5-MTHF",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1190,
+          "name": "Folate, DFE",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1191,
+          "name": "10-Formyl folic acid (10HCOFA)",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1192,
+          "name": "5-Formyltetrahydrofolic acid (5-HCOH4",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1193,
+          "name": "Tetrahydrofolic acid (THF)",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1194,
+          "name": "Choline, free",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1195,
+          "name": "Choline, from phosphocholine",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1196,
+          "name": "Choline, from phosphotidyl choline",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1197,
+          "name": "Choline, from glycerophosphocholine",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1198,
+          "name": "Betaine",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1199,
+          "name": "Choline, from sphingomyelin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1200,
+          "name": "p-Hydroxy benzoic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1201,
+          "name": "Caffeic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1202,
+          "name": "p-Coumaric acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1203,
+          "name": "Ellagic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1204,
+          "name": "Ferrulic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1205,
+          "name": "Gentisic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1206,
+          "name": "Tyrosol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1207,
+          "name": "Vanillic acid",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1208,
+          "name": "Phenolic acids, total",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1209,
+          "name": "Polyphenols, total",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1210,
+          "name": "Tryptophan",
+          "unit_name": "G"
+        },
+        {
+          "id": 1211,
+          "name": "Threonine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1212,
+          "name": "Isoleucine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1213,
+          "name": "Leucine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1214,
+          "name": "Lysine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1215,
+          "name": "Methionine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1216,
+          "name": "Cystine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1217,
+          "name": "Phenylalanine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1218,
+          "name": "Tyrosine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1219,
+          "name": "Valine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1220,
+          "name": "Arginine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1221,
+          "name": "Histidine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1222,
+          "name": "Alanine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1223,
+          "name": "Aspartic acid",
+          "unit_name": "G"
+        },
+        {
+          "id": 1224,
+          "name": "Glutamic acid",
+          "unit_name": "G"
+        },
+        {
+          "id": 1225,
+          "name": "Glycine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1226,
+          "name": "Proline",
+          "unit_name": "G"
+        },
+        {
+          "id": 1227,
+          "name": "Serine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1228,
+          "name": "Hydroxyproline",
+          "unit_name": "G"
+        },
+        {
+          "id": 1229,
+          "name": "Cysteine and methionine(sulfer containig AA)",
+          "unit_name": "G"
+        },
+        {
+          "id": 1230,
+          "name": "Phenylalanine and tyrosine (aromatic  AA)",
+          "unit_name": "G"
+        },
+        {
+          "id": 1231,
+          "name": "Asparagine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1232,
+          "name": "Cysteine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1233,
+          "name": "Glutamine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1234,
+          "name": "Taurine",
+          "unit_name": "G"
+        },
+        {
+          "id": 1235,
+          "name": "Sugars, added",
+          "unit_name": "G"
+        },
+        {
+          "id": 1236,
+          "name": "Sugars, intrinsic",
+          "unit_name": "G"
+        },
+        {
+          "id": 1237,
+          "name": "Calcium, added",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1238,
+          "name": "Iron, added",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1239,
+          "name": "Calcium, intrinsic",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1240,
+          "name": "Iron, intrinsic",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1241,
+          "name": "Vitamin C, added",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1242,
+          "name": "Vitamin E, added",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1243,
+          "name": "Thiamin, added",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1244,
+          "name": "Riboflavin, added",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1245,
+          "name": "Niacin, added",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1246,
+          "name": "Vitamin B-12, added",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1247,
+          "name": "Vitamin C, intrinsic",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1248,
+          "name": "Vitamin E, intrinsic",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1249,
+          "name": "Thiamin, intrinsic",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1250,
+          "name": "Riboflavin, intrinsic",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1251,
+          "name": "Niacin, intrinsic",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1252,
+          "name": "Vitamin B-12, intrinsic",
+          "unit_name": "UG"
+        },
+        {
+          "id": 1253,
+          "name": "Cholesterol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1254,
+          "name": "Glycerides",
+          "unit_name": "G"
+        },
+        {
+          "id": 1255,
+          "name": "Phospholipids",
+          "unit_name": "G"
+        },
+        {
+          "id": 1256,
+          "name": "Glycolipids",
+          "unit_name": "G"
+        },
+        {
+          "id": 1257,
+          "name": "Fatty acids, total trans",
+          "unit_name": "G"
+        },
+        {
+          "id": 1258,
+          "name": "Fatty acids, total saturated",
+          "unit_name": "G"
+        },
+        {
+          "id": 1259,
+          "name": "SFA 4:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 1260,
+          "name": "SFA 6:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 1261,
+          "name": "SFA 8:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 1262,
+          "name": "SFA 10:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 1263,
+          "name": "SFA 12:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 1264,
+          "name": "SFA 14:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 1265,
+          "name": "SFA 16:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 1266,
+          "name": "SFA 18:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 1267,
+          "name": "SFA 20:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 1268,
+          "name": "MUFA 18:1",
+          "unit_name": "G"
+        },
+        {
+          "id": 1269,
+          "name": "PUFA 18:2",
+          "unit_name": "G"
+        },
+        {
+          "id": 1270,
+          "name": "PUFA 18:3",
+          "unit_name": "G"
+        },
+        {
+          "id": 1271,
+          "name": "PUFA 20:4",
+          "unit_name": "G"
+        },
+        {
+          "id": 1272,
+          "name": "PUFA 22:6 n-3 (DHA)",
+          "unit_name": "G"
+        },
+        {
+          "id": 1273,
+          "name": "SFA 22:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 1274,
+          "name": "MUFA 14:1",
+          "unit_name": "G"
+        },
+        {
+          "id": 1275,
+          "name": "MUFA 16:1",
+          "unit_name": "G"
+        },
+        {
+          "id": 1276,
+          "name": "PUFA 18:4",
+          "unit_name": "G"
+        },
+        {
+          "id": 1277,
+          "name": "MUFA 20:1",
+          "unit_name": "G"
+        },
+        {
+          "id": 1278,
+          "name": "PUFA 20:5 n-3 (EPA)",
+          "unit_name": "G"
+        },
+        {
+          "id": 1279,
+          "name": "MUFA 22:1",
+          "unit_name": "G"
+        },
+        {
+          "id": 1280,
+          "name": "PUFA 22:5 n-3 (DPA)",
+          "unit_name": "G"
+        },
+        {
+          "id": 1281,
+          "name": "TFA 14:1 t",
+          "unit_name": "G"
+        },
+        {
+          "id": 1283,
+          "name": "Phytosterols",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1284,
+          "name": "Ergosterol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1285,
+          "name": "Stigmasterol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1286,
+          "name": "Campesterol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1287,
+          "name": "Brassicasterol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1288,
+          "name": "Beta-sitosterol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1289,
+          "name": "Campestanol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1290,
+          "name": "Unsaponifiable matter (lipids)",
+          "unit_name": "G"
+        },
+        {
+          "id": 1291,
+          "name": "Fatty acids, other than 607-615, 617-621, 624-632, 652-654, 686-689)",
+          "unit_name": "G"
+        },
+        {
+          "id": 1292,
+          "name": "Fatty acids, total monounsaturated",
+          "unit_name": "G"
+        },
+        {
+          "id": 1293,
+          "name": "Fatty acids, total polyunsaturated",
+          "unit_name": "G"
+        },
+        {
+          "id": 1294,
+          "name": "Beta-sitostanol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1295,
+          "name": "Delta-7-avenasterol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1296,
+          "name": "Delta-5-avenasterol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1297,
+          "name": "Alpha-spinasterol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1298,
+          "name": "Phytosterols, other",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1299,
+          "name": "SFA 15:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 1300,
+          "name": "SFA 17:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 1301,
+          "name": "SFA 24:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 1302,
+          "name": "Wax Esters(Total Wax)",
+          "unit_name": "G"
+        },
+        {
+          "id": 1303,
+          "name": "TFA 16:1 t",
+          "unit_name": "G"
+        },
+        {
+          "id": 1304,
+          "name": "TFA 18:1 t",
+          "unit_name": "G"
+        },
+        {
+          "id": 1305,
+          "name": "TFA 22:1 t",
+          "unit_name": "G"
+        },
+        {
+          "id": 1306,
+          "name": "TFA 18:2 t not further defined",
+          "unit_name": "G"
+        },
+        {
+          "id": 1307,
+          "name": "PUFA 18:2 i",
+          "unit_name": "G"
+        },
+        {
+          "id": 1308,
+          "name": "PUFA 18:2 t,c",
+          "unit_name": "G"
+        },
+        {
+          "id": 1309,
+          "name": "PUFA 18:2 c,t",
+          "unit_name": "G"
+        },
+        {
+          "id": 1310,
+          "name": "TFA 18:2 t,t",
+          "unit_name": "G"
+        },
+        {
+          "id": 1311,
+          "name": "PUFA 18:2 CLAs",
+          "unit_name": "G"
+        },
+        {
+          "id": 1312,
+          "name": "MUFA 24:1 c",
+          "unit_name": "G"
+        },
+        {
+          "id": 1313,
+          "name": "PUFA 20:2 n-6 c,c",
+          "unit_name": "G"
+        },
+        {
+          "id": 1314,
+          "name": "MUFA 16:1 c",
+          "unit_name": "G"
+        },
+        {
+          "id": 1315,
+          "name": "MUFA 18:1 c",
+          "unit_name": "G"
+        },
+        {
+          "id": 1316,
+          "name": "PUFA 18:2 n-6 c,c",
+          "unit_name": "G"
+        },
+        {
+          "id": 1317,
+          "name": "MUFA 22:1 c",
+          "unit_name": "G"
+        },
+        {
+          "id": 1318,
+          "name": "Fatty acids, saturated, other",
+          "unit_name": "G"
+        },
+        {
+          "id": 1319,
+          "name": "Fatty acids, monounsat., other",
+          "unit_name": "G"
+        },
+        {
+          "id": 1320,
+          "name": "Fatty acids, polyunsat., other",
+          "unit_name": "G"
+        },
+        {
+          "id": 1321,
+          "name": "PUFA 18:3 n-6 c,c,c",
+          "unit_name": "G"
+        },
+        {
+          "id": 1322,
+          "name": "SFA 19:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 1323,
+          "name": "MUFA 17:1",
+          "unit_name": "G"
+        },
+        {
+          "id": 1324,
+          "name": "PUFA 16:2",
+          "unit_name": "G"
+        },
+        {
+          "id": 1325,
+          "name": "PUFA 20:3",
+          "unit_name": "G"
+        },
+        {
+          "id": 1326,
+          "name": "Fatty acids, total sat., NLEA",
+          "unit_name": "G"
+        },
+        {
+          "id": 1327,
+          "name": "Fatty acids, total monounsat., NLEA",
+          "unit_name": "G"
+        },
+        {
+          "id": 1328,
+          "name": "Fatty acids, total polyunsat., NLEA",
+          "unit_name": "G"
+        },
+        {
+          "id": 1329,
+          "name": "Fatty acids, total trans-monoenoic",
+          "unit_name": "G"
+        },
+        {
+          "id": 1330,
+          "name": "Fatty acids, total trans-dienoic",
+          "unit_name": "G"
+        },
+        {
+          "id": 1331,
+          "name": "Fatty acids, total trans-polyenoic",
+          "unit_name": "G"
+        },
+        {
+          "id": 1332,
+          "name": "SFA 13:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 1333,
+          "name": "MUFA 15:1",
+          "unit_name": "G"
+        },
+        {
+          "id": 1334,
+          "name": "PUFA 22:2",
+          "unit_name": "G"
+        },
+        {
+          "id": 1335,
+          "name": "SFA 11:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 1336,
+          "name": "ORAC, Hydrophyllic",
+          "unit_name": "UMOL_TE"
+        },
+        {
+          "id": 1337,
+          "name": "ORAC, Lipophillic",
+          "unit_name": "UMOL_TE"
+        },
+        {
+          "id": 1338,
+          "name": "ORAC, Total",
+          "unit_name": "UMOL_TE"
+        },
+        {
+          "id": 1339,
+          "name": "Total Phenolics",
+          "unit_name": "MG_GAE"
+        },
+        {
+          "id": 1340,
+          "name": "Daidzein",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1341,
+          "name": "Genistein",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1342,
+          "name": "Glycitein",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1343,
+          "name": "Isoflavones",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1344,
+          "name": "Biochanin A",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1345,
+          "name": "Formononetin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1346,
+          "name": "Coumestrol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1347,
+          "name": "Flavonoids, total",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1348,
+          "name": "Anthocyanidins",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1349,
+          "name": "Cyanidin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1350,
+          "name": "Proanthocyanidin (dimer-A linkage)",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1351,
+          "name": "Proanthocyanidin monomers",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1352,
+          "name": "Proanthocyanidin dimers",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1353,
+          "name": "Proanthocyanidin trimers",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1354,
+          "name": "Proanthocyanidin 4-6mers",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1355,
+          "name": "Proanthocyanidin 7-10mers",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1356,
+          "name": "Proanthocyanidin polymers (>10mers)",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1357,
+          "name": "Delphinidin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1358,
+          "name": "Malvidin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1359,
+          "name": "Pelargonidin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1360,
+          "name": "Peonidin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1361,
+          "name": "Petunidin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1362,
+          "name": "Flavans, total",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1363,
+          "name": "Catechins, total",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1364,
+          "name": "Catechin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1365,
+          "name": "Epigallocatechin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1366,
+          "name": "Epicatechin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1367,
+          "name": "Epicatechin-3-gallate",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1368,
+          "name": "Epigallocatechin-3-gallate",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1369,
+          "name": "Procyanidins, total",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1370,
+          "name": "Theaflavins",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1371,
+          "name": "Thearubigins",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1372,
+          "name": "Flavanones, total",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1373,
+          "name": "Eriodictyol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1374,
+          "name": "Hesperetin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1375,
+          "name": "Isosakuranetin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1376,
+          "name": "Liquiritigenin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1377,
+          "name": "Naringenin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1378,
+          "name": "Flavones, total",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1379,
+          "name": "Apigenin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1380,
+          "name": "Chrysoeriol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1381,
+          "name": "Diosmetin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1382,
+          "name": "Luteolin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1383,
+          "name": "Nobiletin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1384,
+          "name": "Sinensetin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1385,
+          "name": "Tangeretin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1386,
+          "name": "Flavonols, total",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1387,
+          "name": "Isorhamnetin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1388,
+          "name": "Kaempferol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1389,
+          "name": "Limocitrin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1390,
+          "name": "Myricetin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1391,
+          "name": "Quercetin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1392,
+          "name": "Theogallin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1393,
+          "name": "Theaflavin -3,3' -digallate",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1394,
+          "name": "Theaflavin -3' -gallate",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1395,
+          "name": "Theaflavin -3 -gallate",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1396,
+          "name": "(+) -Gallo catechin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1397,
+          "name": "(+)-Catechin 3-gallate",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1398,
+          "name": "(+)-Gallocatechin 3-gallate",
+          "unit_name": "MG"
+        },
+        {
+          "id": 1399,
+          "name": "Mannose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1400,
+          "name": "Triose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1401,
+          "name": "Tetrose",
+          "unit_name": "G"
+        },
+        {
+          "id": 1402,
+          "name": "Other Saccharides",
+          "unit_name": "G"
+        },
+        {
+          "id": 1403,
+          "name": "Inulin",
+          "unit_name": "G"
+        },
+        {
+          "id": 1404,
+          "name": "PUFA 18:3 n-3 c,c,c (ALA)",
+          "unit_name": "G"
+        },
+        {
+          "id": 1405,
+          "name": "PUFA 20:3 n-3",
+          "unit_name": "G"
+        },
+        {
+          "id": 1406,
+          "name": "PUFA 20:3 n-6",
+          "unit_name": "G"
+        },
+        {
+          "id": 1407,
+          "name": "PUFA 20:4 n-3",
+          "unit_name": "G"
+        },
+        {
+          "id": 1408,
+          "name": "PUFA 20:4 n-6",
+          "unit_name": "G"
+        },
+        {
+          "id": 1409,
+          "name": "PUFA 18:3i",
+          "unit_name": "G"
+        },
+        {
+          "id": 1410,
+          "name": "PUFA 21:5",
+          "unit_name": "G"
+        },
+        {
+          "id": 1411,
+          "name": "PUFA 22:4",
+          "unit_name": "G"
+        },
+        {
+          "id": 1412,
+          "name": "MUFA 18:1-11 t (18:1t n-7)",
+          "unit_name": "G"
+        },
+        {
+          "id": 1413,
+          "name": "MUFA 18:1-11 c (18:1c n-7)",
+          "unit_name": "G"
+        },
+        {
+          "id": 1414,
+          "name": "PUFA 20:3 n-9",
+          "unit_name": "G"
+        },
+        {
+          "id": 2000,
+          "name": "Total Sugars",
+          "unit_name": "G"
+        },
+        {
+          "id": 2003,
+          "name": "SFA 5:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 2004,
+          "name": "SFA 7:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 2005,
+          "name": "SFA 9:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 2006,
+          "name": "SFA 21:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 2007,
+          "name": "SFA 23:0",
+          "unit_name": "G"
+        },
+        {
+          "id": 2008,
+          "name": "MUFA 12:1",
+          "unit_name": "G"
+        },
+        {
+          "id": 2009,
+          "name": "MUFA 14:1 c",
+          "unit_name": "G"
+        },
+        {
+          "id": 2010,
+          "name": "MUFA 17:1 c",
+          "unit_name": "G"
+        },
+        {
+          "id": 2011,
+          "name": "TFA 17:1 t",
+          "unit_name": "G"
+        },
+        {
+          "id": 2012,
+          "name": "MUFA 20:1 c",
+          "unit_name": "G"
+        },
+        {
+          "id": 2013,
+          "name": "TFA 20:1 t",
+          "unit_name": "G"
+        },
+        {
+          "id": 2014,
+          "name": "MUFA 22:1 n-9",
+          "unit_name": "G"
+        },
+        {
+          "id": 2015,
+          "name": "MUFA 22:1 n-11",
+          "unit_name": "G"
+        },
+        {
+          "id": 2016,
+          "name": "PUFA 18:2 c",
+          "unit_name": "G"
+        },
+        {
+          "id": 2017,
+          "name": "TFA 18:2 t",
+          "unit_name": "G"
+        },
+        {
+          "id": 2018,
+          "name": "PUFA 18:3 c",
+          "unit_name": "G"
+        },
+        {
+          "id": 2019,
+          "name": "TFA 18:3 t",
+          "unit_name": "G"
+        },
+        {
+          "id": 2020,
+          "name": "PUFA 20:3 c",
+          "unit_name": "G"
+        },
+        {
+          "id": 2021,
+          "name": "PUFA 22:3",
+          "unit_name": "G"
+        },
+        {
+          "id": 2022,
+          "name": "PUFA 20:4c",
+          "unit_name": "G"
+        },
+        {
+          "id": 2023,
+          "name": "PUFA 20:5c",
+          "unit_name": "G"
+        },
+        {
+          "id": 2024,
+          "name": "PUFA 22:5 c",
+          "unit_name": "G"
+        },
+        {
+          "id": 2025,
+          "name": "PUFA 22:6 c",
+          "unit_name": "G"
+        },
+        {
+          "id": 2026,
+          "name": "PUFA 20:2 c",
+          "unit_name": "G"
+        },
+        {
+          "id": 2027,
+          "name": "Proximate",
+          "unit_name": "G"
+        },
+        {
+          "id": 2028,
+          "name": "trans-beta-Carotene",
+          "unit_name": "UG"
+        },
+        {
+          "id": 2029,
+          "name": "trans-Lycopene",
+          "unit_name": "UG"
+        },
+        {
+          "id": 2032,
+          "name": "Cryptoxanthin, alpha",
+          "unit_name": "UG"
+        },
+        {
+          "id": 2033,
+          "name": "Total dietary fiber (AOAC 2011.25)",
+          "unit_name": "G"
+        },
+        {
+          "id": 2034,
+          "name": "Insoluble dietary fiber (IDF)",
+          "unit_name": "G"
+        },
+        {
+          "id": 2035,
+          "name": "Soluble dietary fiber (SDFP+SDFS)",
+          "unit_name": "G"
+        },
+        {
+          "id": 2036,
+          "name": "Soluble dietary fiber (SDFP)",
+          "unit_name": "G"
+        },
+        {
+          "id": 2037,
+          "name": "Soluble dietary fiber (SDFS)",
+          "unit_name": "G"
+        },
+        {
+          "id": 2038,
+          "name": "High Molecular Weight Dietary Fiber (HMWDF)",
+          "unit_name": "G"
+        },
+        {
+          "id": 2039,
+          "name": "Carbohydrates",
+          "unit_name": "G"
+        },
+        {
+          "id": 2040,
+          "name": "Other carotenoids",
+          "unit_name": "UG"
+        },
+        {
+          "id": 2041,
+          "name": "Tocopherols and tocotrienols",
+          "unit_name": "MG"
+        },
+        {
+          "id": 2042,
+          "name": "Amino acids",
+          "unit_name": "G"
+        },
+        {
+          "id": 2043,
+          "name": "Minerals",
+          "unit_name": "MG"
+        },
+        {
+          "id": 2044,
+          "name": "Lipids",
+          "unit_name": "G"
+        },
+        {
+          "id": 2045,
+          "name": "Proximates",
+          "unit_name": "G"
+        },
+        {
+          "id": 2046,
+          "name": "Vitamins and Other Components",
+          "unit_name": "G"
+        },
+        {
+          "id": 2055,
+          "name": "Total Tocopherols",
+          "unit_name": "MG"
+        },
+        {
+          "id": 2054,
+          "name": "Total Tocotrienols",
+          "unit_name": "MG"
+        },
+        {
+          "id": 2053,
+          "name": "Stigmastadiene",
+          "unit_name": "MG"
+        },
+        {
+          "id": 2052,
+          "name": "Delta-7-Stigmastenol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 2049,
+          "name": "Daidzin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 2050,
+          "name": "Genistin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 2051,
+          "name": "Glycitin",
+          "unit_name": "MG"
+        },
+        {
+          "id": 2057,
+          "name": "Ergothioneine",
+          "unit_name": "MG"
+        },
+        {
+          "id": 2058,
+          "name": "Beta-glucan",
+          "unit_name": "G"
+        },
+        {
+          "id": 2059,
+          "name": "Vitamin D4",
+          "unit_name": "UG"
+        },
+        {
+          "id": 2060,
+          "name": "Ergosta-7-enol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 2061,
+          "name": "Ergosta-7,22-dienol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 2062,
+          "name": "Ergosta-5,7-dienol",
+          "unit_name": "MG"
+        },
+        {
+          "id": 2063,
+          "name": "Verbascose",
+          "unit_name": "G"
+        },
+        {
+          "id": 2064,
+          "name": "Oligosaccharides",
+          "unit_name": "MG"
+        },
+        {
+          "id": 2065,
+          "name": "Low Molecular Weight Dietary Fiber (LMWDF)",
+          "unit_name": "G"
+        },
+        {
+          "id": 2068,
+          "name": "Vitamin E",
+          "unit_name": "MG"
+        },
+        {
+          "id": 2067,
+          "name": "Vitamin A",
+          "unit_name": "UG"
+        },
+        {
+          "id": 2069,
+          "name": "Glutathione",
+          "unit_name": "MG"
+        }
+      ],
+      "nutrients_by_unit": {
+        "G": 205,
+        "IU": 3,
+        "KCAL": 3,
+        "MCG_RE": 2,
+        "MG": 186,
+        "MG_ATE": 1,
+        "MG_GAE": 1,
+        "PH": 1,
+        "SP_GR": 1,
+        "UG": 70,
+        "UMOL_TE": 3,
+        "kJ": 1
+      },
+      "top_occurring_nutrients": {
+        "1003": 1876140,
+        "1005": 1866139,
+        "1093": 1864110,
+        "1008": 1854339,
+        "1004": 1848171,
+        "2000": 1779337,
+        "1258": 1626813,
+        "1253": 1588453,
+        "1079": 1581914,
+        "1257": 1577093,
+        "1087": 1554385,
+        "1089": 1552409,
+        "1162": 895207,
+        "1092": 866947,
+        "1104": 801813,
+        "1110": 571449,
+        "1235": 524123,
+        "1292": 258276,
+        "1293": 257984,
+        "1167": 132136
+      }
+    },
+    "nutrient_id_ranges": {
+      "nutrient_table": {
+        "min": 1001,
+        "max": 2069
+      },
+      "food_nutrient_table": {
+        "min": 1002,
+        "max": 2069
+      }
+    },
+    "unmapped_nutrient_ids": {
+      "in_mapping_not_in_nutrients": [],
+      "in_nutrients_not_in_mapping": [
+        1025,
+        1027,
+        1028,
+        1029,
+        2054,
+        2055,
+        1030,
+        1031,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        2064,
+        1040,
+        1042,
+        2039,
+        1045,
+        1046,
+        1047,
+        1048,
+        1049,
+        2040,
+        1052,
+        1053,
+        1054,
+        1055,
+        2041,
+        1059,
+        1060,
+        1061,
+        2043,
+        1064,
+        1065,
+        1066,
+        1067,
+        2044,
+        1069,
+        1070,
+        1071,
+        1073,
+        1074,
+        2045,
+        2046,
+        1083,
+        1115,
+        1132,
+        1133,
+        1134,
+        1135,
+        1136,
+        1138,
+        1139,
+        1140,
+        1141,
+        1142,
+        1143,
+        1144,
+        1145,
+        1147,
+        1148,
+        1150,
+        1151,
+        1152,
+        1153,
+        1154,
+        1155,
+        1156,
+        1157,
+        1163,
+        1164,
+        1168,
+        1169,
+        1171,
+        1172,
+        1173,
+        1174,
+        1179,
+        1182,
+        1189,
+        1193,
+        1200,
+        1201,
+        1202,
+        1203,
+        1204,
+        1205,
+        1206,
+        1207,
+        1208,
+        1209,
+        1229,
+        1230,
+        1231,
+        1237,
+        1238,
+        1239,
+        1240,
+        1241,
+        1243,
+        1244,
+        1245,
+        1247,
+        1248,
+        1249,
+        1250,
+        1251,
+        1252,
+        1254,
+        1255,
+        1256,
+        1290,
+        1291,
+        1295,
+        1297,
+        1302,
+        1308,
+        1309,
+        1318,
+        1319,
+        1320,
+        1322,
+        1324,
+        1326,
+        1327,
+        1328,
+        1336,
+        1337,
+        1338,
+        1339,
+        1342,
+        1343,
+        1344,
+        1345,
+        1346,
+        1347,
+        1348,
+        1349,
+        1350,
+        1351,
+        1352,
+        1353,
+        1354,
+        1355,
+        1356,
+        1357,
+        1358,
+        1359,
+        1360,
+        1361,
+        1362,
+        1363,
+        1364,
+        1365,
+        1366,
+        1367,
+        1369,
+        1370,
+        1371,
+        1372,
+        1373,
+        1374,
+        1375,
+        1376,
+        1377,
+        1378,
+        1379,
+        1380,
+        1381,
+        1382,
+        1383,
+        1384,
+        1385,
+        1386,
+        1387,
+        1388,
+        1389,
+        1390,
+        1391,
+        1392,
+        1393,
+        1394,
+        1395,
+        1396,
+        1397,
+        1398,
+        1399,
+        1400,
+        1401,
+        1402,
+        1407,
+        1413,
+        2011,
+        1001,
+        2027,
+        1006,
+        2034,
+        2035,
+        2036,
+        2037,
+        1015,
+        1016,
+        1017,
+        2042,
+        1019,
+        1020,
+        1021,
+        1022,
+        1023
+      ]
+    },
+    "nutrient_value_distributions": {
+      "1257": {
+        "name": "Fatty acids, total trans",
+        "count": 1577093,
+        "non_zero_count": 48322,
+        "min": 0.0,
+        "max": 615.38,
+        "mean": 0.03504778421437418,
+        "median": 0.0,
+        "std": 1.5105712420365942
+      },
+      "1293": {
+        "name": "Fatty acids, total polyunsaturated",
+        "count": 257984,
+        "non_zero_count": 186218,
+        "min": 0.0,
+        "max": 1216.22,
+        "mean": 4.987691152939717,
+        "median": 1.79,
+        "std": 9.547432653823204
+      },
+      "1253": {
+        "name": "Cholesterol",
+        "count": 1588453,
+        "non_zero_count": 678468,
+        "min": 0.0,
+        "max": 5500000.0,
+        "mean": 68.22969778016724,
+        "median": 0.0,
+        "std": 5005.428079808801
+      },
+      "1092": {
+        "name": "Potassium, K",
+        "count": 866947,
+        "non_zero_count": 760742,
+        "min": 0.0,
+        "max": 7500000000.0,
+        "mean": 9213.550808069236,
+        "median": 167.0,
+        "std": 8055008.966889428
+      },
+      "1008": {
+        "name": "Energy",
+        "count": 1854339,
+        "non_zero_count": 1769361,
+        "min": 0.0,
+        "max": 151515.0,
+        "mean": 273.51157629020366,
+        "median": 267.0,
+        "std": 358.2722149352849
+      },
+      "1089": {
+        "name": "Iron, Fe",
+        "count": 1552409,
+        "non_zero_count": 1098013,
+        "min": 0.0,
+        "max": 769230.77,
+        "mean": 4.765666894806716,
+        "median": 0.97,
+        "std": 761.7065899106747
+      },
+      "1162": {
+        "name": "Vitamin C, total ascorbic acid",
+        "count": 895207,
+        "non_zero_count": 353883,
+        "min": 0.0,
+        "max": 210000.0,
+        "mean": 21.396312815471727,
+        "median": 0.0,
+        "std": 811.555517106247
+      },
+      "1258": {
+        "name": "Fatty acids, total saturated",
+        "count": 1626813,
+        "non_zero_count": 1062184,
+        "min": 0.0,
+        "max": 3000.0,
+        "mean": 4.927104140242305,
+        "median": 2.0,
+        "std": 10.915117886897717
+      },
+      "1087": {
+        "name": "Calcium, Ca",
+        "count": 1554385,
+        "non_zero_count": 1112531,
+        "min": 0.0,
+        "max": 2666667.0,
+        "mean": 160.5544674439087,
+        "median": 36.0,
+        "std": 9703.315651028455
+      },
+      "1292": {
+        "name": "Fatty acids, total monounsaturated",
+        "count": 258276,
+        "non_zero_count": 189874,
+        "min": 0.0,
+        "max": 2200.0,
+        "mean": 7.7806516006132975,
+        "median": 2.9,
+        "std": 16.881916165587526
+      },
+      "1093": {
+        "name": "Sodium, Na",
+        "count": 1864110,
+        "non_zero_count": 1602827,
+        "min": 0.0,
+        "max": 40000000.0,
+        "mean": 1517.0243493165635,
+        "median": 264.0,
+        "std": 97665.53592878405
+      },
+      "1104": {
+        "name": "Vitamin A, IU",
+        "count": 801813,
+        "non_zero_count": 358232,
+        "min": 0.0,
+        "max": 800000000.0,
+        "mean": 3536.4703253751186,
+        "median": 0.0,
+        "std": 980900.1355112301
+      },
+      "2000": {
+        "name": "Total Sugars",
+        "count": 1779337,
+        "non_zero_count": 1435499,
+        "min": 0.0,
+        "max": 5800.0,
+        "mean": 16.549051160628935,
+        "median": 5.71,
+        "std": 34.44784042067047
+      },
+      "1079": {
+        "name": "Fiber, total dietary",
+        "count": 1581914,
+        "non_zero_count": 1018834,
+        "min": 0.0,
+        "max": 2468.9,
+        "mean": 2.9153051848583416,
+        "median": 1.5,
+        "std": 7.660986432152646
+      },
+      "1110": {
+        "name": "Vitamin D (D2 + D3), International Units",
+        "count": 571449,
+        "non_zero_count": 69669,
+        "min": 0.0,
+        "max": 117647059.0,
+        "mean": 299.86666625718135,
+        "median": 0.0,
+        "std": 157157.72584935027
+      },
+      "1005": {
+        "name": "Carbohydrate, by difference",
+        "count": 1866139,
+        "non_zero_count": 1685196,
+        "min": 0.0,
+        "max": 12700.0,
+        "mean": 34.28366958753983,
+        "median": 23.33,
+        "std": 49.16959873723695
+      },
+      "1004": {
+        "name": "Total lipid (fat)",
+        "count": 1848171,
+        "non_zero_count": 1312373,
+        "min": 0.0,
+        "max": 3666.67,
+        "mean": 12.559590676079216,
+        "median": 5.45,
+        "std": 22.397564874590536
+      },
+      "1003": {
+        "name": "Protein",
+        "count": 1876140,
+        "non_zero_count": 1420241,
+        "min": 0.0,
+        "max": 4444.44,
+        "mean": 7.608044758055369,
+        "median": 4.63,
+        "std": 14.32115569228004
+      },
+      "1186": {
+        "name": "Folic acid",
+        "count": 54894,
+        "non_zero_count": 42897,
+        "min": 0.0,
+        "max": 196428571.0,
+        "mean": 21912.931704740044,
+        "median": 87.0,
+        "std": 2031903.384004202
+      },
+      "1190": {
+        "name": "Folate, DFE",
+        "count": 14318,
+        "non_zero_count": 13354,
+        "min": 0.0,
+        "max": 281818.0,
+        "mean": 100.37994133258834,
+        "median": 23.0,
+        "std": 2432.5756738409423
+      },
+      "1166": {
+        "name": "Riboflavin",
+        "count": 121357,
+        "non_zero_count": 115955,
+        "min": 0.0,
+        "max": 20000.0,
+        "mean": 0.7888313620969537,
+        "median": 0.313,
+        "std": 57.50476185892066
+      },
+      "1165": {
+        "name": "Thiamin",
+        "count": 126073,
+        "non_zero_count": 66739,
+        "min": 0.0,
+        "max": 1429.0,
+        "mean": 0.9099856003188628,
+        "median": 0.046,
+        "std": 13.535948002655498
+      },
+      "1178": {
+        "name": "Vitamin B-12",
+        "count": 70355,
+        "non_zero_count": 60191,
+        "min": 0.0,
+        "max": 65789473.68,
+        "mean": 6332.593373441121,
+        "median": 1.18,
+        "std": 634756.7113721246
+      },
+      "1175": {
+        "name": "Vitamin B-6",
+        "count": 88333,
+        "non_zero_count": 84038,
+        "min": 0.0,
+        "max": 250.0,
+        "mean": 1.3655579536526552,
+        "median": 0.4,
+        "std": 5.340497186327437
+      },
+      "1091": {
+        "name": "Phosphorus, P",
+        "count": 77981,
+        "non_zero_count": 74580,
+        "min": 0.0,
+        "max": 559459.0,
+        "mean": 330.04967049153,
+        "median": 167.0,
+        "std": 5713.045933553907
+      },
+      "1101": {
+        "name": "Manganese, Mn",
+        "count": 34685,
+        "non_zero_count": 23513,
+        "min": 0.0,
+        "max": 2167.0,
+        "mean": 1.398917141934554,
+        "median": 0.239,
+        "std": 14.087465414183567
+      },
+      "1090": {
+        "name": "Magnesium, Mg",
+        "count": 77177,
+        "non_zero_count": 73518,
+        "min": 0.0,
+        "max": 585714.0,
+        "mean": 184.1317774466486,
+        "median": 43.0,
+        "std": 5260.801285118278
+      },
+      "1167": {
+        "name": "Niacin",
+        "count": 132136,
+        "non_zero_count": 127609,
+        "min": 0.0,
+        "max": 21428.571,
+        "mean": 11.215025789754494,
+        "median": 4.545,
+        "std": 157.1789728010979
+      },
+      "1235": {
+        "name": "Sugars, added",
+        "count": 524123,
+        "non_zero_count": 402382,
+        "min": 0.0,
+        "max": 2250.0,
+        "mean": 17.90115984225077,
+        "median": 7.5,
+        "std": 25.36747470087903
+      },
+      "1177": {
+        "name": "Folate, total",
+        "count": 62925,
+        "non_zero_count": 57729,
+        "min": 0.0,
+        "max": 392857143.0,
+        "mean": 58249.84180630751,
+        "median": 76.0,
+        "std": 3994201.8636768186
+      },
+      "1103": {
+        "name": "Selenium, Se",
+        "count": 29639,
+        "non_zero_count": 25937,
+        "min": 0.0,
+        "max": 125000.0,
+        "mean": 49.55106576132798,
+        "median": 8.9,
+        "std": 1117.6367399635274
+      },
+      "1170": {
+        "name": "Pantothenic acid",
+        "count": 37938,
+        "non_zero_count": 34764,
+        "min": 0.0,
+        "max": 16920.474,
+        "mean": 8.161746375665558,
+        "median": 1.0285,
+        "std": 205.58897422191825
+      },
+      "1100": {
+        "name": "Iodine, I",
+        "count": 11232,
+        "non_zero_count": 8697,
+        "min": 0.0,
+        "max": 4466667.0,
+        "mean": 2142.7113039857995,
+        "median": 16.0,
+        "std": 84693.17948192035
+      },
+      "1095": {
+        "name": "Zinc, Zn",
+        "count": 66265,
+        "non_zero_count": 62734,
+        "min": 0.0,
+        "max": 10000.0,
+        "mean": 5.943524725647023,
+        "median": 2.25,
+        "std": 103.5390615529946
+      },
+      "1158": {
+        "name": "Vitamin E",
+        "count": 7727,
+        "non_zero_count": 7458,
+        "min": 0.0,
+        "max": 13333.0,
+        "mean": 18.000129416332342,
+        "median": 4.0,
+        "std": 219.67623406405195
+      },
+      "1082": {
+        "name": "Fiber, soluble",
+        "count": 19588,
+        "non_zero_count": 13728,
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 2.646865427812947,
+        "median": 2.0,
+        "std": 4.336412721551728
+      },
+      "1084": {
+        "name": "Fiber, insoluble",
+        "count": 18348,
+        "non_zero_count": 13901,
+        "min": 0.0,
+        "max": 57.0,
+        "mean": 4.217020928711576,
+        "median": 3.0,
+        "std": 4.780577394497018
+      },
+      "1086": {
+        "name": "Total sugar alcohols",
+        "count": 21172,
+        "non_zero_count": 16826,
+        "min": 0.0,
+        "max": 800.0,
+        "mean": 23.706310221046664,
+        "median": 10.0,
+        "std": 30.986034386506606
+      },
+      "1056": {
+        "name": "Sorbitol",
+        "count": 156,
+        "non_zero_count": 116,
+        "min": 0.0,
+        "max": 30.0,
+        "mean": 14.884615384615385,
+        "median": 20.0,
+        "std": 12.186169600351702
+      },
+      "1185": {
+        "name": "Vitamin K (phylloquinone)",
+        "count": 26580,
+        "non_zero_count": 22086,
+        "min": 0.0,
+        "max": 49180.3,
+        "mean": 78.47070767494357,
+        "median": 6.8,
+        "std": 759.162369094057
+      },
+      "1098": {
+        "name": "Copper, Cu",
+        "count": 40318,
+        "non_zero_count": 37023,
+        "min": 0.0,
+        "max": 16483.516,
+        "mean": 1.0811790708368472,
+        "median": 0.179,
+        "std": 82.4308731347723
+      },
+      "1072": {
+        "name": "Carbohydrate, other",
+        "count": 4777,
+        "non_zero_count": 4675,
+        "min": 0.0,
+        "max": 260.0,
+        "mean": 38.55850952480636,
+        "median": 40.0,
+        "std": 21.212462641389777
+      },
+      "1102": {
+        "name": "Molybdenum, Mo",
+        "count": 5540,
+        "non_zero_count": 3245,
+        "min": 0.0,
+        "max": 35714.0,
+        "mean": 147.50939187725632,
+        "median": 3.0,
+        "std": 1008.4863673115157
+      },
+      "1096": {
+        "name": "Chromium, Cr",
+        "count": 4117,
+        "non_zero_count": 1948,
+        "min": 0.0,
+        "max": 962.0,
+        "mean": 14.614768034976924,
+        "median": 0.0,
+        "std": 52.72546344192769
+      },
+      "1176": {
+        "name": "Biotin",
+        "count": 7118,
+        "non_zero_count": 4615,
+        "min": 0.0,
+        "max": 576923.0,
+        "mean": 705.0795503231244,
+        "median": 2.0,
+        "std": 8833.879536398787
+      },
+      "1403": {
+        "name": "Inulin",
+        "count": 137,
+        "non_zero_count": 113,
+        "min": 0.0,
+        "max": 6.0,
+        "mean": 4.839416058394161,
+        "median": 6.0,
+        "std": 2.2597292154355957
+      },
+      "1109": {
+        "name": "Vitamin E (alpha-tocopherol)",
+        "count": 13413,
+        "non_zero_count": 12606,
+        "min": 0.0,
+        "max": 51923.0,
+        "mean": 11.13807444270484,
+        "median": 0.55,
+        "std": 634.1716119053131
+      },
+      "1078": {
+        "name": "Xylitol",
+        "count": 464,
+        "non_zero_count": 454,
+        "min": 0.0,
+        "max": 800.0,
+        "mean": 54.297413793103445,
+        "median": 69.0,
+        "std": 50.01941214737761
+      },
+      "1180": {
+        "name": "Choline, total",
+        "count": 11345,
+        "non_zero_count": 10932,
+        "min": 0.0,
+        "max": 1700000.0,
+        "mean": 1102.7699867783165,
+        "median": 23.0,
+        "std": 42215.37744636382
+      },
+      "1088": {
+        "name": "Chlorine, Cl",
+        "count": 3714,
+        "non_zero_count": 1518,
+        "min": 0.0,
+        "max": 59067.0,
+        "mean": 459.6378567582122,
+        "median": 0.0,
+        "std": 1823.2198298018666
+      },
+      "1013": {
+        "name": "Lactose",
+        "count": 5181,
+        "non_zero_count": 606,
+        "min": 0.0,
+        "max": 56.0,
+        "mean": 0.31880872418452044,
+        "median": 0.0,
+        "std": 2.0975726879801253
+      },
+      "1112": {
+        "name": "Vitamin D3 (cholecalciferol)",
+        "count": 2376,
+        "non_zero_count": 1751,
+        "min": 0.0,
+        "max": 1000.0,
+        "mean": 9.931716743265993,
+        "median": 0.2,
+        "std": 66.24287475223491
+      },
+      "1051": {
+        "name": "Water",
+        "count": 21014,
+        "non_zero_count": 20050,
+        "min": 0.0,
+        "max": 2475.0,
+        "mean": 50.32105719996193,
+        "median": 59.65,
+        "std": 56.02474484411218
+      },
+      "1062": {
+        "name": "Energy",
+        "count": 7961,
+        "non_zero_count": 7926,
+        "min": 0.0,
+        "max": 3774.0,
+        "mean": 918.5014704182892,
+        "median": 762.0,
+        "std": 707.4249484880851
+      },
+      "1007": {
+        "name": "Ash",
+        "count": 15064,
+        "non_zero_count": 14807,
+        "min": 0.0,
+        "max": 99.8,
+        "mean": 2.0399119722517263,
+        "median": 1.3,
+        "std": 4.6808328189930295
+      },
+      "1106": {
+        "name": "Vitamin A, RAE",
+        "count": 14053,
+        "non_zero_count": 9761,
+        "min": 0.0,
+        "max": 30000.0,
+        "mean": 86.74027750776844,
+        "median": 9.0,
+        "std": 621.3887956486727
+      },
+      "1105": {
+        "name": "Retinol",
+        "count": 12772,
+        "non_zero_count": 6639,
+        "min": 0.0,
+        "max": 30000.0,
+        "mean": 65.77625312002819,
+        "median": 1.0,
+        "std": 640.6773378072758
+      },
+      "1268": {
+        "name": "MUFA 18:1",
+        "count": 12464,
+        "non_zero_count": 11806,
+        "min": 0.0,
+        "max": 82.63,
+        "mean": 3.5617361440949935,
+        "median": 1.7685,
+        "std": 6.091107158969133
+      },
+      "1265": {
+        "name": "SFA 16:0",
+        "count": 13554,
+        "non_zero_count": 12937,
+        "min": 0.0,
+        "max": 43.5,
+        "mean": 1.9808085008115686,
+        "median": 1.01,
+        "std": 2.791229125957876
+      },
+      "1270": {
+        "name": "PUFA 18:3",
+        "count": 12389,
+        "non_zero_count": 11377,
+        "min": 0.0,
+        "max": 53.368,
+        "mean": 0.20097949794172248,
+        "median": 0.069,
+        "std": 1.0016436243380096
+      },
+      "1269": {
+        "name": "PUFA 18:2",
+        "count": 12546,
+        "non_zero_count": 11959,
+        "min": 0.0,
+        "max": 74.623,
+        "mean": 1.91504616610872,
+        "median": 0.625,
+        "std": 4.374237568441369
+      },
+      "1108": {
+        "name": "Carotene, alpha",
+        "count": 11121,
+        "non_zero_count": 2293,
+        "min": 0.0,
+        "max": 14251.0,
+        "mean": 37.71403201150976,
+        "median": 0.0,
+        "std": 295.7086797824862
+      },
+      "1009": {
+        "name": "Starch",
+        "count": 2694,
+        "non_zero_count": 2400,
+        "min": 0.0,
+        "max": 89.01,
+        "mean": 27.417186711210096,
+        "median": 34.155,
+        "std": 20.55946875375721
+      },
+      "1128": {
+        "name": "Tocotrienol, alpha",
+        "count": 1897,
+        "non_zero_count": 925,
+        "min": 0.0,
+        "max": 5.7,
+        "mean": 0.08590933052187665,
+        "median": 0.0,
+        "std": 0.33197168331917204
+      },
+      "1333": {
+        "name": "MUFA 15:1",
+        "count": 2892,
+        "non_zero_count": 265,
+        "min": 0.0,
+        "max": 0.721,
+        "mean": 0.0029948132780082985,
+        "median": 0.0,
+        "std": 0.026963539971402214
+      },
+      "1210": {
+        "name": "Tryptophan",
+        "count": 5690,
+        "non_zero_count": 5552,
+        "min": 0.0,
+        "max": 1207.143,
+        "mean": 0.8339914569420037,
+        "median": 0.1635,
+        "std": 27.709504280431393
+      },
+      "1107": {
+        "name": "Carotene, beta",
+        "count": 11243,
+        "non_zero_count": 6336,
+        "min": 0.0,
+        "max": 42891.0,
+        "mean": 271.37195921906965,
+        "median": 2.0,
+        "std": 1179.916288429454
+      },
+      "1280": {
+        "name": "PUFA 22:5 n-3 (DPA)",
+        "count": 12032,
+        "non_zero_count": 4397,
+        "min": 0.0,
+        "max": 5.613,
+        "mean": 0.007632637965425532,
+        "median": 0.0,
+        "std": 0.08634269056422834
+      },
+      "1266": {
+        "name": "SFA 18:0",
+        "count": 13544,
+        "non_zero_count": 12696,
+        "min": 0.0,
+        "max": 83.094,
+        "mean": 0.9369727975487301,
+        "median": 0.422,
+        "std": 1.8244616471868789
+      },
+      "1129": {
+        "name": "Tocotrienol, beta",
+        "count": 1911,
+        "non_zero_count": 357,
+        "min": 0.0,
+        "max": 8.75,
+        "mean": 0.10167974882260596,
+        "median": 0.0,
+        "std": 0.5822911543935416
+      },
+      "1279": {
+        "name": "MUFA 22:1",
+        "count": 11223,
+        "non_zero_count": 2370,
+        "min": 0.0,
+        "max": 41.175,
+        "mean": 0.01685184888176067,
+        "median": 0.0,
+        "std": 0.4686277472881319
+      },
+      "1273": {
+        "name": "SFA 22:0",
+        "count": 3212,
+        "non_zero_count": 2438,
+        "min": 0.0,
+        "max": 54.3,
+        "mean": 0.07257733499377335,
+        "median": 0.007,
+        "std": 0.9892902447104936
+      },
+      "1276": {
+        "name": "PUFA 18:4",
+        "count": 11962,
+        "non_zero_count": 1535,
+        "min": 0.0,
+        "max": 3.025,
+        "mean": 0.0031427959371342585,
+        "median": 0.0,
+        "std": 0.054802263935504754
+      },
+      "1131": {
+        "name": "Tocotrienol, delta",
+        "count": 1895,
+        "non_zero_count": 121,
+        "min": 0.0,
+        "max": 1.46,
+        "mean": 0.01094986807387863,
+        "median": 0.0,
+        "std": 0.08000953690998777
+      },
+      "1014": {
+        "name": "Maltose",
+        "count": 3006,
+        "non_zero_count": 798,
+        "min": 0.0,
+        "max": 10.04,
+        "mean": 0.2489482135728543,
+        "median": 0.0,
+        "std": 0.7675506629502988
+      },
+      "1127": {
+        "name": "Tocopherol, delta",
+        "count": 2310,
+        "non_zero_count": 956,
+        "min": 0.0,
+        "max": 30.88,
+        "mean": 0.49203346320346314,
+        "median": 0.0,
+        "std": 1.9895884641578416
+      },
+      "1215": {
+        "name": "Methionine",
+        "count": 5765,
+        "non_zero_count": 5641,
+        "min": 0.0,
+        "max": 2764.286,
+        "mean": 1.843257104943625,
+        "median": 0.359,
+        "std": 63.03976778953905
+      },
+      "1325": {
+        "name": "PUFA 20:3",
+        "count": 2289,
+        "non_zero_count": 1227,
+        "min": 0.0,
+        "max": 0.353,
+        "mean": 0.007716732197466144,
+        "median": 0.001,
+        "std": 0.015009153517663793
+      },
+      "1224": {
+        "name": "Glutamic acid",
+        "count": 5679,
+        "non_zero_count": 5577,
+        "min": 0.0,
+        "max": 9650.0,
+        "mean": 8.026761929917239,
+        "median": 2.747,
+        "std": 221.7072844939275
+      },
+      "1321": {
+        "name": "PUFA 18:3 n-6 c,c,c",
+        "count": 2501,
+        "non_zero_count": 1411,
+        "min": 0.0,
+        "max": 1.34,
+        "mean": 0.0077799630147940835,
+        "median": 0.001,
+        "std": 0.03390706817421895
+      },
+      "1012": {
+        "name": "Fructose",
+        "count": 3047,
+        "non_zero_count": 2043,
+        "min": 0.0,
+        "max": 55.6,
+        "mean": 1.9138717098785691,
+        "median": 0.5,
+        "std": 3.565562776715858
+      },
+      "1011": {
+        "name": "Glucose",
+        "count": 3048,
+        "non_zero_count": 2240,
+        "min": 0.0,
+        "max": 35.75,
+        "mean": 1.8422917650918635,
+        "median": 0.64,
+        "std": 3.478379651491365
+      },
+      "1125": {
+        "name": "Tocopherol, beta",
+        "count": 2328,
+        "non_zero_count": 989,
+        "min": 0.0,
+        "max": 10.46,
+        "mean": 0.10561310137457045,
+        "median": 0.0,
+        "std": 0.4442729742380647
+      },
+      "1242": {
+        "name": "Vitamin E, added",
+        "count": 10047,
+        "non_zero_count": 379,
+        "min": 0.0,
+        "max": 51.92,
+        "mean": 0.15204240071663183,
+        "median": 0.0,
+        "std": 1.6956182210910358
+      },
+      "1010": {
+        "name": "Sucrose",
+        "count": 3023,
+        "non_zero_count": 1797,
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 2.4765413430367182,
+        "median": 0.17,
+        "std": 8.644512103061542
+      },
+      "1223": {
+        "name": "Aspartic acid",
+        "count": 5534,
+        "non_zero_count": 5433,
+        "min": 0.0,
+        "max": 7528.571,
+        "mean": 5.706491001084207,
+        "median": 1.4395,
+        "std": 175.2274606862206
+      },
+      "1217": {
+        "name": "Phenylalanine",
+        "count": 5748,
+        "non_zero_count": 5638,
+        "min": 0.0,
+        "max": 4332.143,
+        "mean": 2.9942104384133614,
+        "median": 0.67,
+        "std": 98.93895766894413
+      },
+      "1216": {
+        "name": "Cystine",
+        "count": 5214,
+        "non_zero_count": 5087,
+        "min": 0.0,
+        "max": 2.212,
+        "mean": 0.2110082470272344,
+        "median": 0.198,
+        "std": 0.2332124222367906
+      },
+      "1225": {
+        "name": "Glycine",
+        "count": 5687,
+        "non_zero_count": 5575,
+        "min": 0.0,
+        "max": 2553.571,
+        "mean": 2.165914603481625,
+        "median": 0.814,
+        "std": 58.62655438063051
+      },
+      "1075": {
+        "name": "Galactose",
+        "count": 2515,
+        "non_zero_count": 329,
+        "min": 0.0,
+        "max": 5.62,
+        "mean": 0.03576566600397614,
+        "median": 0.0,
+        "std": 0.17556023829554798
+      },
+      "1058": {
+        "name": "Theobromine",
+        "count": 10601,
+        "non_zero_count": 506,
+        "min": 0.0,
+        "max": 2634.0,
+        "mean": 5.863692104518441,
+        "median": 0.0,
+        "std": 59.36770772306782
+      },
+      "1259": {
+        "name": "SFA 4:0",
+        "count": 11965,
+        "non_zero_count": 4307,
+        "min": 0.0,
+        "max": 6.4,
+        "mean": 0.044422237944003344,
+        "median": 0.0,
+        "std": 0.1752494310806941
+      },
+      "1219": {
+        "name": "Valine",
+        "count": 5751,
+        "non_zero_count": 5635,
+        "min": 0.0,
+        "max": 5110.714,
+        "mean": 6.7528620413841045,
+        "median": 0.781,
+        "std": 153.21771574347534
+      },
+      "1274": {
+        "name": "MUFA 14:1",
+        "count": 2725,
+        "non_zero_count": 1734,
+        "min": 0.0,
+        "max": 1.43,
+        "mean": 0.02913798165137615,
+        "median": 0.006,
+        "std": 0.06415099009133557
+      },
+      "1211": {
+        "name": "Threonine",
+        "count": 5744,
+        "non_zero_count": 5628,
+        "min": 0.0,
+        "max": 3332.143,
+        "mean": 2.4852021065459606,
+        "median": 0.6505000000000001,
+        "std": 76.12713330533384
+      },
+      "1272": {
+        "name": "PUFA 22:6 n-3 (DHA)",
+        "count": 12061,
+        "non_zero_count": 3280,
+        "min": 0.0,
+        "max": 18.232,
+        "mean": 0.023528447060774393,
+        "median": 0.0,
+        "std": 0.289426242913543
+      },
+      "1264": {
+        "name": "SFA 14:0",
+        "count": 13312,
+        "non_zero_count": 11453,
+        "min": 0.0,
+        "max": 82.6,
+        "mean": 0.3292831592548077,
+        "median": 0.061,
+        "std": 1.313625721706662
+      },
+      "1018": {
+        "name": "Alcohol, ethyl",
+        "count": 10853,
+        "non_zero_count": 170,
+        "min": 0.0,
+        "max": 87.0,
+        "mean": 0.21033815534875153,
+        "median": 0.0,
+        "std": 2.156681131601687
+      },
+      "1313": {
+        "name": "PUFA 20:2 n-6 c,c",
+        "count": 3345,
+        "non_zero_count": 2244,
+        "min": 0.0,
+        "max": 0.445,
+        "mean": 0.016577418535127057,
+        "median": 0.003,
+        "std": 0.04548281062327228
+      },
+      "1126": {
+        "name": "Tocopherol, gamma",
+        "count": 2326,
+        "non_zero_count": 1645,
+        "min": 0.0,
+        "max": 100.88,
+        "mean": 2.265630920034394,
+        "median": 0.08,
+        "std": 7.443628357495124
+      },
+      "1260": {
+        "name": "SFA 6:0",
+        "count": 12002,
+        "non_zero_count": 3820,
+        "min": 0.0,
+        "max": 2.007,
+        "mean": 0.031164923554407597,
+        "median": 0.0,
+        "std": 0.1123750566034116
+      },
+      "1261": {
+        "name": "SFA 8:0",
+        "count": 12198,
+        "non_zero_count": 4995,
+        "min": 0.0,
+        "max": 28.0,
+        "mean": 0.06967503795704214,
+        "median": 0.0,
+        "std": 0.7966736018027916
+      },
+      "1262": {
+        "name": "SFA 10:0",
+        "count": 12592,
+        "non_zero_count": 7263,
+        "min": 0.0,
+        "max": 22.667,
+        "mean": 0.0839898874682338,
+        "median": 0.003,
+        "std": 0.6409172235216811
+      },
+      "1221": {
+        "name": "Histidine",
+        "count": 5745,
+        "non_zero_count": 5633,
+        "min": 0.0,
+        "max": 5.428999999999999,
+        "mean": 0.5041506440382941,
+        "median": 0.435,
+        "std": 0.4509769100110281
+      },
+      "1122": {
+        "name": "Lycopene",
+        "count": 11038,
+        "non_zero_count": 1225,
+        "min": 0.0,
+        "max": 46260.0,
+        "mean": 247.45402817539411,
+        "median": 0.0,
+        "std": 1434.5199623942428
+      },
+      "1220": {
+        "name": "Arginine",
+        "count": 5757,
+        "non_zero_count": 5647,
+        "min": 0.0,
+        "max": 4257.143,
+        "mean": 3.4124348792774017,
+        "median": 1.039,
+        "std": 97.15501419279299
+      },
+      "1187": {
+        "name": "Folate, food",
+        "count": 12224,
+        "non_zero_count": 10988,
+        "min": 0.0,
+        "max": 2340.0,
+        "mean": 23.437745418848166,
+        "median": 10.0,
+        "std": 55.50301806071423
+      },
+      "1267": {
+        "name": "SFA 20:0",
+        "count": 3794,
+        "non_zero_count": 3215,
+        "min": 0.0,
+        "max": 1.944,
+        "mean": 0.049160134422772804,
+        "median": 0.01,
+        "std": 0.133676166718424
+      },
+      "1184": {
+        "name": "Vitamin K (Dihydrophylloquinone)",
+        "count": 1931,
+        "non_zero_count": 199,
+        "min": 0.0,
+        "max": 164.9,
+        "mean": 1.2778353184878302,
+        "median": 0.0,
+        "std": 7.676702233186528
+      },
+      "1323": {
+        "name": "MUFA 17:1",
+        "count": 3317,
+        "non_zero_count": 2327,
+        "min": 0.0,
+        "max": 0.476,
+        "mean": 0.028898136870666266,
+        "median": 0.007,
+        "std": 0.046219550916008705
+      },
+      "1214": {
+        "name": "Lysine",
+        "count": 5766,
+        "non_zero_count": 5654,
+        "min": 0.0,
+        "max": 4689.286,
+        "mean": 3.7609734651404794,
+        "median": 1.0554999999999999,
+        "std": 106.92303549417723
+      },
+      "1300": {
+        "name": "SFA 17:0",
+        "count": 3682,
+        "non_zero_count": 3276,
+        "min": 0.0,
+        "max": 1.485,
+        "mean": 0.06614632808256382,
+        "median": 0.028220000000000002,
+        "std": 0.10617646126155778
+      },
+      "1130": {
+        "name": "Tocotrienol, gamma",
+        "count": 1900,
+        "non_zero_count": 603,
+        "min": 0.0,
+        "max": 4.79,
+        "mean": 0.08542631578947368,
+        "median": 0.0,
+        "std": 0.3774045636692309
+      },
+      "1227": {
+        "name": "Serine",
+        "count": 5693,
+        "non_zero_count": 5582,
+        "min": 0.0,
+        "max": 5035.714,
+        "mean": 3.4269464166520285,
+        "median": 0.694,
+        "std": 115.56298312758842
+      },
+      "1057": {
+        "name": "Caffeine",
+        "count": 11741,
+        "non_zero_count": 1389,
+        "min": 0.0,
+        "max": 233333.0,
+        "mean": 53.33157311983647,
+        "median": 0.0,
+        "std": 2281.946660793692
+      },
+      "1226": {
+        "name": "Proline",
+        "count": 5688,
+        "non_zero_count": 5573,
+        "min": 0.0,
+        "max": 2839.286,
+        "mean": 2.4260673962728556,
+        "median": 0.812,
+        "std": 65.18175433927603
+      },
+      "1277": {
+        "name": "MUFA 20:1",
+        "count": 12157,
+        "non_zero_count": 8302,
+        "min": 0.0,
+        "max": 15.02,
+        "mean": 0.04914169614214033,
+        "median": 0.011,
+        "std": 0.2811298221869303
+      },
+      "1218": {
+        "name": "Tyrosine",
+        "count": 5706,
+        "non_zero_count": 5594,
+        "min": 0.0,
+        "max": 2910.714,
+        "mean": 2.1314655800911324,
+        "median": 0.534,
+        "std": 66.7184941925314
+      },
+      "1120": {
+        "name": "Cryptoxanthin, beta",
+        "count": 11110,
+        "non_zero_count": 2574,
+        "min": 0.0,
+        "max": 6252.0,
+        "mean": 8.26130715571557,
+        "median": 0.0,
+        "std": 113.63080606085842
+      },
+      "1263": {
+        "name": "SFA 12:0",
+        "count": 12897,
+        "non_zero_count": 8658,
+        "min": 0.0,
+        "max": 53.428,
+        "mean": 0.2542547567651392,
+        "median": 0.005,
+        "std": 2.148743563945355
+      },
+      "1212": {
+        "name": "Isoleucine",
+        "count": 5748,
+        "non_zero_count": 5637,
+        "min": 0.0,
+        "max": 6246.429,
+        "mean": 4.059072068545581,
+        "median": 0.6875,
+        "std": 142.6633056905243
+      },
+      "1299": {
+        "name": "SFA 15:0",
+        "count": 3292,
+        "non_zero_count": 2647,
+        "min": 0.0,
+        "max": 0.85,
+        "mean": 0.04101025698663426,
+        "median": 0.008,
+        "std": 0.08984491188131008
+      },
+      "1275": {
+        "name": "MUFA 16:1",
+        "count": 12213,
+        "non_zero_count": 10385,
+        "min": 0.0,
+        "max": 20.33,
+        "mean": 0.18217006468517152,
+        "median": 0.05,
+        "std": 0.49979246083968565
+      },
+      "1123": {
+        "name": "Lutein + zeaxanthin",
+        "count": 10921,
+        "non_zero_count": 6046,
+        "min": 0.0,
+        "max": 39550.0,
+        "mean": 254.7072611482465,
+        "median": 4.0,
+        "std": 1545.4226419180652
+      },
+      "1213": {
+        "name": "Leucine",
+        "count": 5745,
+        "non_zero_count": 5635,
+        "min": 0.0,
+        "max": 35.519,
+        "mean": 1.4050315056570932,
+        "median": 1.242,
+        "std": 1.5667519768797131
+      },
+      "1246": {
+        "name": "Vitamin B-12, added",
+        "count": 10193,
+        "non_zero_count": 497,
+        "min": 0.0,
+        "max": 10.71,
+        "mean": 0.07454037084273522,
+        "median": 0.0,
+        "std": 0.5220363077007475
+      },
+      "1222": {
+        "name": "Alanine",
+        "count": 5693,
+        "non_zero_count": 5583,
+        "min": 0.0,
+        "max": 4542.857,
+        "mean": 3.3232338398032675,
+        "median": 0.877,
+        "std": 104.24842183725353
+      },
+      "1278": {
+        "name": "PUFA 20:5 n-3 (EPA)",
+        "count": 12097,
+        "non_zero_count": 4086,
+        "min": 0.0,
+        "max": 13.168,
+        "mean": 0.016110975861783915,
+        "median": 0.0,
+        "std": 0.24244963234854983
+      },
+      "1271": {
+        "name": "PUFA 20:4",
+        "count": 12606,
+        "non_zero_count": 7456,
+        "min": 0.0,
+        "max": 1.756,
+        "mean": 0.02612166135173727,
+        "median": 0.004,
+        "std": 0.057839323472825596
+      },
+      "1114": {
+        "name": "Vitamin D (D2 + D3)",
+        "count": 112001,
+        "non_zero_count": 15801,
+        "min": 0.0,
+        "max": 50000000.0,
+        "mean": 611.2209823456933,
+        "median": 0.0,
+        "std": 154154.7689562983
+      },
+      "1198": {
+        "name": "Betaine",
+        "count": 2211,
+        "non_zero_count": 2142,
+        "min": 0.0,
+        "max": 630.4,
+        "mean": 12.269651741293535,
+        "median": 6.4,
+        "std": 38.962371879261234
+      },
+      "1183": {
+        "name": "Vitamin K (Menaquinone-4)",
+        "count": 1044,
+        "non_zero_count": 473,
+        "min": 0.0,
+        "max": 41.7,
+        "mean": 2.4008620689655173,
+        "median": 0.0,
+        "std": 5.424735544507288
+      },
+      "1314": {
+        "name": "MUFA 16:1 c",
+        "count": 2350,
+        "non_zero_count": 2303,
+        "min": 0.0,
+        "max": 3.4,
+        "mean": 0.2622439412765957,
+        "median": 0.133,
+        "std": 0.3765208243938142
+      },
+      "1410": {
+        "name": "PUFA 21:5",
+        "count": 114,
+        "non_zero_count": 15,
+        "min": 0.0,
+        "max": 0.35,
+        "mean": 0.008350877192982456,
+        "median": 0.0,
+        "std": 0.04323059848349805
+      },
+      "1312": {
+        "name": "MUFA 24:1 c",
+        "count": 2192,
+        "non_zero_count": 901,
+        "min": 0.0,
+        "max": 0.644,
+        "mean": 0.003751742700729927,
+        "median": 0.0,
+        "std": 0.020978253595940546
+      },
+      "1301": {
+        "name": "SFA 24:0",
+        "count": 3166,
+        "non_zero_count": 2130,
+        "min": 0.0,
+        "max": 1.64,
+        "mean": 0.024554553379658877,
+        "median": 0.003,
+        "std": 0.11822224088580828
+      },
+      "1411": {
+        "name": "PUFA 22:4",
+        "count": 1877,
+        "non_zero_count": 1160,
+        "min": 0.0,
+        "max": 0.17,
+        "mean": 0.008517468034096963,
+        "median": 0.004,
+        "std": 0.013654365823760702
+      },
+      "1228": {
+        "name": "Hydroxyproline",
+        "count": 1681,
+        "non_zero_count": 1299,
+        "min": 0.0,
+        "max": 1.13,
+        "mean": 0.13806516954193931,
+        "median": 0.12,
+        "std": 0.12987391564966613
+      },
+      "1404": {
+        "name": "PUFA 18:3 n-3 c,c,c (ALA)",
+        "count": 2898,
+        "non_zero_count": 2826,
+        "min": 0.0,
+        "max": 53.368,
+        "mean": 0.37425036231884057,
+        "median": 0.069,
+        "std": 2.0187646308439695
+      },
+      "1310": {
+        "name": "TFA 18:2 t,t",
+        "count": 352,
+        "non_zero_count": 241,
+        "min": 0.0,
+        "max": 0.533,
+        "mean": 0.02550852272727273,
+        "median": 0.011,
+        "std": 0.05157049153025251
+      },
+      "1331": {
+        "name": "Fatty acids, total trans-polyenoic",
+        "count": 1630,
+        "non_zero_count": 1384,
+        "min": 0.0,
+        "max": 4.524,
+        "mean": 0.07822760736196319,
+        "median": 0.019,
+        "std": 0.31626047861881085
+      },
+      "1329": {
+        "name": "Fatty acids, total trans-monoenoic",
+        "count": 1965,
+        "non_zero_count": 1825,
+        "min": 0.0,
+        "max": 40.118,
+        "mean": 0.48558815521628496,
+        "median": 0.116,
+        "std": 2.0115750614696855
+      },
+      "1304": {
+        "name": "TFA 18:1 t",
+        "count": 2752,
+        "non_zero_count": 2532,
+        "min": 0.0,
+        "max": 40.118,
+        "mean": 0.41802041242732557,
+        "median": 0.091,
+        "std": 1.7326720906441533
+      },
+      "1316": {
+        "name": "PUFA 18:2 n-6 c,c",
+        "count": 2905,
+        "non_zero_count": 2895,
+        "min": 0.0,
+        "max": 61.943,
+        "mean": 2.856646103270224,
+        "median": 0.7,
+        "std": 6.2500183559467715
+      },
+      "1311": {
+        "name": "PUFA 18:2 CLAs",
+        "count": 2365,
+        "non_zero_count": 2033,
+        "min": 0.0,
+        "max": 1.065,
+        "mean": 0.045584202959830865,
+        "median": 0.018,
+        "std": 0.0831003387488809
+      },
+      "1317": {
+        "name": "MUFA 22:1 c",
+        "count": 1572,
+        "non_zero_count": 745,
+        "min": 0.0,
+        "max": 1.28,
+        "mean": 0.00861434351145038,
+        "median": 0.0,
+        "std": 0.0767811314348476
+      },
+      "1306": {
+        "name": "TFA 18:2 t not further defined",
+        "count": 2041,
+        "non_zero_count": 1846,
+        "min": 0.0,
+        "max": 0.913,
+        "mean": 0.056794159725624696,
+        "median": 0.022,
+        "std": 0.09134776287676759
+      },
+      "1405": {
+        "name": "PUFA 20:3 n-3",
+        "count": 1846,
+        "non_zero_count": 848,
+        "min": 0.0,
+        "max": 0.171,
+        "mean": 0.0029740522751895994,
+        "median": 0.0,
+        "std": 0.008482128235270283
+      },
+      "1305": {
+        "name": "TFA 22:1 t",
+        "count": 1675,
+        "non_zero_count": 160,
+        "min": 0.0,
+        "max": 0.044,
+        "mean": 0.0002823880597014925,
+        "median": 0.0,
+        "std": 0.0015702259666927625
+      },
+      "1315": {
+        "name": "MUFA 18:1 c",
+        "count": 2877,
+        "non_zero_count": 2868,
+        "min": 0.0,
+        "max": 80.557,
+        "mean": 6.840310114702816,
+        "median": 3.081,
+        "std": 12.215683730573367
+      },
+      "1406": {
+        "name": "PUFA 20:3 n-6",
+        "count": 2180,
+        "non_zero_count": 1505,
+        "min": 0.0,
+        "max": 0.102,
+        "mean": 0.01256495412844037,
+        "median": 0.008,
+        "std": 0.01509470732756738
+      },
+      "1303": {
+        "name": "TFA 16:1 t",
+        "count": 2082,
+        "non_zero_count": 1430,
+        "min": 0.0,
+        "max": 0.246,
+        "mean": 0.017997322286263207,
+        "median": 0.005,
+        "std": 0.029092247445999638
+      },
+      "1099": {
+        "name": "Fluoride, F",
+        "count": 565,
+        "non_zero_count": 501,
+        "min": 0.0,
+        "max": 150000.0,
+        "mean": 558.2217699115043,
+        "median": 14.6,
+        "std": 8915.033607618565
+      },
+      "1409": {
+        "name": "PUFA 18:3i",
+        "count": 779,
+        "non_zero_count": 239,
+        "min": 0.0,
+        "max": 1.295,
+        "mean": 0.018807445442875482,
+        "median": 0.0,
+        "std": 0.106891201424268
+      },
+      "1285": {
+        "name": "Stigmasterol",
+        "count": 319,
+        "non_zero_count": 171,
+        "min": 0.0,
+        "max": 64.0,
+        "mean": 7.376858934169278,
+        "median": 0.888,
+        "std": 14.179208104828628
+      },
+      "1288": {
+        "name": "Beta-sitosterol",
+        "count": 320,
+        "non_zero_count": 194,
+        "min": 0.0,
+        "max": 621.0,
+        "mean": 83.3846875,
+        "median": 37.5,
+        "std": 112.47324356105064
+      },
+      "1286": {
+        "name": "Campesterol",
+        "count": 319,
+        "non_zero_count": 203,
+        "min": 0.0,
+        "max": 269.0,
+        "mean": 20.672796238244516,
+        "median": 4.695,
+        "std": 47.99339177584945
+      },
+      "1307": {
+        "name": "PUFA 18:2 i",
+        "count": 55,
+        "non_zero_count": 54,
+        "min": 0.0,
+        "max": 4.029,
+        "mean": 0.7809272727272727,
+        "median": 0.143,
+        "std": 1.1688105041506063
+      },
+      "1332": {
+        "name": "SFA 13:0",
+        "count": 263,
+        "non_zero_count": 15,
+        "min": 0.0,
+        "max": 0.079,
+        "mean": 0.0007034220532319392,
+        "median": 0.0,
+        "std": 0.005605636108755776
+      },
+      "1283": {
+        "name": "Phytosterols",
+        "count": 489,
+        "non_zero_count": 314,
+        "min": 0.0,
+        "max": 1190.0,
+        "mean": 49.14110429447853,
+        "median": 9.0,
+        "std": 105.02906763738329
+      },
+      "1408": {
+        "name": "PUFA 20:4 n-6",
+        "count": 165,
+        "non_zero_count": 154,
+        "min": 0.0,
+        "max": 0.67,
+        "mean": 0.043509090909090914,
+        "median": 0.026,
+        "std": 0.06869006195930669
+      },
+      "1111": {
+        "name": "Vitamin D2 (ergocalciferol)",
+        "count": 684,
+        "non_zero_count": 150,
+        "min": 0.0,
+        "max": 31.9,
+        "mean": 0.506256432748538,
+        "median": 0.0,
+        "std": 2.409376349114592
+      },
+      "1412": {
+        "name": "MUFA 18:1-11 t (18:1t n-7)",
+        "count": 168,
+        "non_zero_count": 167,
+        "min": 0.0,
+        "max": 2.579,
+        "mean": 0.35330357142857144,
+        "median": 0.261,
+        "std": 0.398332403527184
+      },
+      "1002": {
+        "name": "Nitrogen",
+        "count": 3383,
+        "non_zero_count": 3337,
+        "min": 0.0,
+        "max": 13.2,
+        "mean": 1.6422821164646761,
+        "median": 1.07,
+        "std": 1.812137862022417
+      },
+      "1335": {
+        "name": "SFA 11:0",
+        "count": 811,
+        "non_zero_count": 23,
+        "min": 0.0,
+        "max": 0.019,
+        "mean": 0.0002786683107274969,
+        "median": 0.0,
+        "std": 0.002051503803078106
+      },
+      "1414": {
+        "name": "PUFA 20:3 n-9",
+        "count": 655,
+        "non_zero_count": 0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "2012": {
+        "name": "MUFA 20:1 c",
+        "count": 576,
+        "non_zero_count": 548,
+        "min": 0.0,
+        "max": 2.5,
+        "mean": 0.17018867361111112,
+        "median": 0.052,
+        "std": 0.28754634616805574
+      },
+      "1334": {
+        "name": "PUFA 22:2",
+        "count": 818,
+        "non_zero_count": 337,
+        "min": 0.0,
+        "max": 0.022,
+        "mean": 0.0011471124694376529,
+        "median": 0.0,
+        "std": 0.0019136372743260672
+      },
+      "2014": {
+        "name": "MUFA 22:1 n-9",
+        "count": 450,
+        "non_zero_count": 273,
+        "min": 0.0,
+        "max": 0.172,
+        "mean": 0.009234966666666667,
+        "median": 0.002,
+        "std": 0.028006498908710598
+      },
+      "2019": {
+        "name": "TFA 18:3 t",
+        "count": 432,
+        "non_zero_count": 91,
+        "min": 0.0,
+        "max": 0.005,
+        "mean": 0.0006458333333333332,
+        "median": 0.0,
+        "std": 0.0012914249580497437
+      },
+      "2009": {
+        "name": "MUFA 14:1 c",
+        "count": 494,
+        "non_zero_count": 320,
+        "min": 0.0,
+        "max": 0.712,
+        "mean": 0.07393927125506072,
+        "median": 0.006,
+        "std": 0.13097554219556884
+      },
+      "1197": {
+        "name": "Choline, from glycerophosphocholine",
+        "count": 120,
+        "non_zero_count": 115,
+        "min": 0.0,
+        "max": 13.1,
+        "mean": 4.693333333333333,
+        "median": 2.7,
+        "std": 4.582185697929332
+      },
+      "1195": {
+        "name": "Choline, from phosphocholine",
+        "count": 120,
+        "non_zero_count": 118,
+        "min": 0.0,
+        "max": 376.0,
+        "mean": 79.32083333333334,
+        "median": 1.6,
+        "std": 127.12881702016573
+      },
+      "1196": {
+        "name": "Choline, from phosphotidyl choline",
+        "count": 125,
+        "non_zero_count": 121,
+        "min": 0.0,
+        "max": 21666.7,
+        "mean": 871.4287999999999,
+        "median": 1.4,
+        "std": 4261.9180709722705
+      },
+      "1194": {
+        "name": "Choline, free",
+        "count": 120,
+        "non_zero_count": 120,
+        "min": 0.3,
+        "max": 42.7,
+        "mean": 4.281666666666666,
+        "median": 2.6,
+        "std": 7.518224170498719
+      },
+      "1199": {
+        "name": "Choline, from sphingomyelin",
+        "count": 120,
+        "non_zero_count": 103,
+        "min": 0.0,
+        "max": 29.8,
+        "mean": 8.138333333333334,
+        "median": 4.4,
+        "std": 9.694312491243055
+      },
+      "1113": {
+        "name": "25-hydroxycholecalciferol",
+        "count": 233,
+        "non_zero_count": 110,
+        "min": 0.0,
+        "max": 3.8,
+        "mean": 0.5475107296137339,
+        "median": 0.0,
+        "std": 0.8464677016445947
+      },
+      "2006": {
+        "name": "SFA 21:0",
+        "count": 384,
+        "non_zero_count": 198,
+        "min": 0.0,
+        "max": 0.03,
+        "mean": 0.00463796875,
+        "median": 0.001,
+        "std": 0.006814045357936287
+      },
+      "2005": {
+        "name": "SFA 9:0",
+        "count": 328,
+        "non_zero_count": 0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "2004": {
+        "name": "SFA 7:0",
+        "count": 328,
+        "non_zero_count": 0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "2015": {
+        "name": "MUFA 22:1 n-11",
+        "count": 328,
+        "non_zero_count": 83,
+        "min": 0.0,
+        "max": 0.007,
+        "mean": 0.0007933323170731708,
+        "median": 0.0,
+        "std": 0.0014765653454902941
+      },
+      "2021": {
+        "name": "PUFA 22:3",
+        "count": 328,
+        "non_zero_count": 60,
+        "min": 0.0,
+        "max": 0.023,
+        "mean": 0.0008687164634146341,
+        "median": 0.0,
+        "std": 0.002935709155651881
+      },
+      "2007": {
+        "name": "SFA 23:0",
+        "count": 328,
+        "non_zero_count": 0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "1281": {
+        "name": "TFA 14:1 t",
+        "count": 314,
+        "non_zero_count": 156,
+        "min": 0.0,
+        "max": 0.059,
+        "mean": 0.011780652866242037,
+        "median": 0.0,
+        "std": 0.019954493603891312
+      },
+      "2013": {
+        "name": "TFA 20:1 t",
+        "count": 314,
+        "non_zero_count": 0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "2008": {
+        "name": "MUFA 12:1",
+        "count": 328,
+        "non_zero_count": 149,
+        "min": 0.0,
+        "max": 0.063,
+        "mean": 0.006100609756097562,
+        "median": 0.0,
+        "std": 0.012097928636874228
+      },
+      "2003": {
+        "name": "SFA 5:0",
+        "count": 328,
+        "non_zero_count": 0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "1232": {
+        "name": "Cysteine",
+        "count": 378,
+        "non_zero_count": 346,
+        "min": 0.0,
+        "max": 6.0,
+        "mean": 0.5792696296296296,
+        "median": 0.43,
+        "std": 0.6982291715945739
+      },
+      "1119": {
+        "name": "Zeaxanthin",
+        "count": 151,
+        "non_zero_count": 98,
+        "min": 0.0,
+        "max": 1510.0,
+        "mean": 176.38556158940398,
+        "median": 6.4246,
+        "std": 272.86124583703264
+      },
+      "2028": {
+        "name": "trans-beta-Carotene",
+        "count": 137,
+        "non_zero_count": 86,
+        "min": 0.0,
+        "max": 493.0,
+        "mean": 28.532846715328468,
+        "median": 2.0,
+        "std": 79.75652758597205
+      },
+      "2029": {
+        "name": "trans-Lycopene",
+        "count": 133,
+        "non_zero_count": 5,
+        "min": 0.0,
+        "max": 32.0,
+        "mean": 0.43609022556390975,
+        "median": 0.0,
+        "std": 3.0160012244256587
+      },
+      "1121": {
+        "name": "Lutein",
+        "count": 133,
+        "non_zero_count": 115,
+        "min": 0.0,
+        "max": 9630.0,
+        "mean": 1931.3383458646617,
+        "median": 108.0,
+        "std": 2983.7963931717622
+      },
+      "1159": {
+        "name": "cis-beta-Carotene",
+        "count": 137,
+        "non_zero_count": 72,
+        "min": 0.0,
+        "max": 73.0,
+        "mean": 4.773722627737226,
+        "median": 1.0,
+        "std": 12.259445758469338
+      },
+      "1160": {
+        "name": "cis-Lycopene",
+        "count": 137,
+        "non_zero_count": 4,
+        "min": 0.0,
+        "max": 594.0,
+        "mean": 16.16058394160584,
+        "median": 0.0,
+        "std": 93.63227774090846
+      },
+      "2032": {
+        "name": "Cryptoxanthin, alpha",
+        "count": 166,
+        "non_zero_count": 22,
+        "min": 0.0,
+        "max": 77.0,
+        "mean": 1.4954819277108433,
+        "median": 0.0,
+        "std": 8.684722867281927
+      },
+      "1161": {
+        "name": "cis-Lutein/Zeaxanthin",
+        "count": 191,
+        "non_zero_count": 56,
+        "min": 0.0,
+        "max": 191.0,
+        "mean": 17.42606387434555,
+        "median": 0.0,
+        "std": 42.69454191106133
+      },
+      "1330": {
+        "name": "Fatty acids, total trans-dienoic",
+        "count": 70,
+        "non_zero_count": 64,
+        "min": 0.0,
+        "max": 0.225,
+        "mean": 0.04419999999999999,
+        "median": 0.0195,
+        "std": 0.059184457419156934
+      },
+      "1085": {
+        "name": "Total fat (NLEA)",
+        "count": 10035,
+        "non_zero_count": 8670,
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 11.393218913801691,
+        "median": 8.0,
+        "std": 12.465147464046208
+      },
+      "1050": {
+        "name": "Carbohydrate, by summation",
+        "count": 47,
+        "non_zero_count": 45,
+        "min": 0.0,
+        "max": 67.9,
+        "mean": 15.340978723404252,
+        "median": 10.6,
+        "std": 16.308871578123096
+      },
+      "2026": {
+        "name": "PUFA 20:2 c",
+        "count": 81,
+        "non_zero_count": 64,
+        "min": 0.0,
+        "max": 0.217,
+        "mean": 0.018174876543209876,
+        "median": 0.002,
+        "std": 0.04843192755510891
+      },
+      "1063": {
+        "name": "Sugars, Total",
+        "count": 846,
+        "non_zero_count": 709,
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 15.572643368794324,
+        "median": 6.72,
+        "std": 20.02673697157494
+      },
+      "2020": {
+        "name": "PUFA 20:3 c",
+        "count": 86,
+        "non_zero_count": 59,
+        "min": 0.0,
+        "max": 0.081,
+        "mean": 0.013801168604651165,
+        "median": 0.0095,
+        "std": 0.01816861656095161
+      },
+      "2024": {
+        "name": "PUFA 22:5 c",
+        "count": 81,
+        "non_zero_count": 52,
+        "min": 0.0,
+        "max": 0.039,
+        "mean": 0.007160493827160495,
+        "median": 0.005,
+        "std": 0.008061415493143027
+      },
+      "2010": {
+        "name": "MUFA 17:1 c",
+        "count": 81,
+        "non_zero_count": 75,
+        "min": 0.0,
+        "max": 0.257,
+        "mean": 0.03472,
+        "median": 0.02,
+        "std": 0.0474457010697492
+      },
+      "2016": {
+        "name": "PUFA 18:2 c",
+        "count": 91,
+        "non_zero_count": 88,
+        "min": 0.0,
+        "max": 51.9,
+        "mean": 3.6625993406593405,
+        "median": 0.827,
+        "std": 8.45351281622929
+      },
+      "2018": {
+        "name": "PUFA 18:3 c",
+        "count": 91,
+        "non_zero_count": 82,
+        "min": 0.0,
+        "max": 7.45,
+        "mean": 0.2923740384615385,
+        "median": 0.061,
+        "std": 1.0412205265773813
+      },
+      "2023": {
+        "name": "PUFA 20:5c",
+        "count": 84,
+        "non_zero_count": 54,
+        "min": 0.0,
+        "max": 0.049,
+        "mean": 0.003962797619047618,
+        "median": 0.002,
+        "std": 0.007889861664125069
+      },
+      "2025": {
+        "name": "PUFA 22:6 c",
+        "count": 84,
+        "non_zero_count": 37,
+        "min": 0.0,
+        "max": 0.197,
+        "mean": 0.0061190476190476194,
+        "median": 0.0,
+        "std": 0.026356867266313932
+      },
+      "2022": {
+        "name": "PUFA 20:4c",
+        "count": 86,
+        "non_zero_count": 67,
+        "min": 0.0,
+        "max": 0.165,
+        "mean": 0.03369724418604651,
+        "median": 0.020999999999999998,
+        "std": 0.04174136399105556
+      },
+      "2047": {
+        "name": "Energy (Atwater General Factors)",
+        "count": 311,
+        "non_zero_count": 310,
+        "min": 0.0,
+        "max": 895.0,
+        "mean": 194.1138225080386,
+        "median": 115.445,
+        "std": 187.05196004270584
+      },
+      "2048": {
+        "name": "Energy (Atwater Specific Factors)",
+        "count": 301,
+        "non_zero_count": 301,
+        "min": 12.0,
+        "max": 833.0,
+        "mean": 189.05131016727574,
+        "median": 106.0,
+        "std": 181.772142223754
+      },
+      "1117": {
+        "name": "Phytofluene",
+        "count": 22,
+        "non_zero_count": 0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "1116": {
+        "name": "Phytoene",
+        "count": 22,
+        "non_zero_count": 0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "1024": {
+        "name": "Specific Gravity",
+        "count": 6,
+        "non_zero_count": 6,
+        "min": 1.04,
+        "max": 1.04,
+        "mean": 1.04,
+        "median": 1.04,
+        "std": 0.0
+      },
+      "1192": {
+        "name": "5-Formyltetrahydrofolic acid (5-HCOH4",
+        "count": 8,
+        "non_zero_count": 8,
+        "min": 5.0,
+        "max": 7.0,
+        "mean": 5.25,
+        "median": 5.0,
+        "std": 0.7071067811865476
+      },
+      "1191": {
+        "name": "10-Formyl folic acid (10HCOFA)",
+        "count": 8,
+        "non_zero_count": 8,
+        "min": 8.0,
+        "max": 11.0,
+        "mean": 9.375,
+        "median": 9.0,
+        "std": 0.9161253813129043
+      },
+      "1188": {
+        "name": "5-methyl tetrahydrofolate (5-MTHF)",
+        "count": 8,
+        "non_zero_count": 8,
+        "min": 17.0,
+        "max": 52.0,
+        "mean": 39.875,
+        "median": 41.0,
+        "std": 10.176127526155096
+      },
+      "1094": {
+        "name": "Sulfur, S",
+        "count": 844,
+        "non_zero_count": 844,
+        "min": 149.0,
+        "max": 311.0,
+        "mean": 228.71919431279622,
+        "median": 229.0,
+        "std": 23.44880213428351
+      },
+      "1097": {
+        "name": "Cobalt, Co",
+        "count": 844,
+        "non_zero_count": 844,
+        "min": 16.0,
+        "max": 93.0,
+        "mean": 46.326777251184836,
+        "median": 46.0,
+        "std": 13.114785460235293
+      },
+      "1137": {
+        "name": "Boron, B",
+        "count": 844,
+        "non_zero_count": 844,
+        "min": 793.0,
+        "max": 1710.0,
+        "mean": 1222.4502369668246,
+        "median": 1220.0,
+        "std": 156.02116423469286
+      },
+      "1146": {
+        "name": "Nickel, Ni",
+        "count": 844,
+        "non_zero_count": 844,
+        "min": 25.0,
+        "max": 449.0,
+        "mean": 189.82109004739337,
+        "median": 194.0,
+        "std": 60.27325562412919
+      },
+      "1124": {
+        "name": "Vitamin E (label entry primarily)",
+        "count": 8488,
+        "non_zero_count": 1392,
+        "min": 0.0,
+        "max": 700000.0,
+        "mean": 2572.1727144203583,
+        "median": 0.0,
+        "std": 26272.129511822797
+      },
+      "1181": {
+        "name": "Inositol",
+        "count": 140,
+        "non_zero_count": 139,
+        "min": 0.0,
+        "max": 556.0,
+        "mean": 20.6,
+        "median": 3.0,
+        "std": 59.27375825157527
+      },
+      "1234": {
+        "name": "Taurine",
+        "count": 54,
+        "non_zero_count": 14,
+        "min": 0.0,
+        "max": 29.0,
+        "mean": 2.425925925925926,
+        "median": 0.0,
+        "std": 7.6123084338801394
+      },
+      "1081": {
+        "name": "Ribose",
+        "count": 3,
+        "non_zero_count": 0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "1026": {
+        "name": "Acetic acid",
+        "count": 7,
+        "non_zero_count": 7,
+        "min": 12.0,
+        "max": 375.0,
+        "mean": 115.71428571428571,
+        "median": 12.0,
+        "std": 177.1258632401588
+      },
+      "1368": {
+        "name": "Epigallocatechin-3-gallate",
+        "count": 37,
+        "non_zero_count": 37,
+        "min": 5.0,
+        "max": 1250.0,
+        "mean": 65.48648648648648,
+        "median": 11.0,
+        "std": 228.48955989055383
+      },
+      "1038": {
+        "name": "Lactic acid",
+        "count": 7,
+        "non_zero_count": 7,
+        "min": 10.0,
+        "max": 312.0,
+        "mean": 96.28571428571429,
+        "median": 10.0,
+        "std": 147.3609110152285
+      },
+      "1233": {
+        "name": "Glutamine",
+        "count": 14,
+        "non_zero_count": 6,
+        "min": 0.0,
+        "max": 10.0,
+        "mean": 4.071428571428571,
+        "median": 0.0,
+        "std": 4.937521734546682
+      },
+      "1294": {
+        "name": "Beta-sitostanol",
+        "count": 182,
+        "non_zero_count": 85,
+        "min": 0.0,
+        "max": 36.8,
+        "mean": 2.793543956043956,
+        "median": 0.0,
+        "std": 5.918495363304808
+      },
+      "1289": {
+        "name": "Campestanol",
+        "count": 91,
+        "non_zero_count": 25,
+        "min": 0.0,
+        "max": 16.5,
+        "mean": 1.1163592307692307,
+        "median": 0.0,
+        "std": 3.2545501881090275
+      },
+      "1298": {
+        "name": "Phytosterols, other",
+        "count": 55,
+        "non_zero_count": 55,
+        "min": 13.0,
+        "max": 51.3,
+        "mean": 23.88727272727273,
+        "median": 23.4,
+        "std": 7.345773653767899
+      },
+      "1287": {
+        "name": "Brassicasterol",
+        "count": 91,
+        "non_zero_count": 8,
+        "min": 0.0,
+        "max": 81.2,
+        "mean": 5.181142857142857,
+        "median": 0.0,
+        "std": 19.51545550957065
+      },
+      "1296": {
+        "name": "Delta-5-avenasterol",
+        "count": 182,
+        "non_zero_count": 91,
+        "min": 0.0,
+        "max": 36.2,
+        "mean": 9.368406593406592,
+        "median": 2.62,
+        "std": 10.482594634188029
+      },
+      "2033": {
+        "name": "Total dietary fiber (AOAC 2011.25)",
+        "count": 309,
+        "non_zero_count": 309,
+        "min": 1.54,
+        "max": 70.7,
+        "mean": 8.417333333333332,
+        "median": 6.9,
+        "std": 6.18451499443976
+      },
+      "1039": {
+        "name": "Malic acid",
+        "count": 172,
+        "non_zero_count": 161,
+        "min": 0.0,
+        "max": 1010.0,
+        "mean": 274.526976744186,
+        "median": 225.85,
+        "std": 220.60479539978175
+      },
+      "1032": {
+        "name": "Citric acid",
+        "count": 172,
+        "non_zero_count": 124,
+        "min": 0.0,
+        "max": 2190.0,
+        "mean": 553.8406976744186,
+        "median": 366.0,
+        "std": 554.5541415208014
+      },
+      "1236": {
+        "name": "Sugars, intrinsic",
+        "count": 1,
+        "non_zero_count": 1,
+        "min": 28.0,
+        "max": 28.0,
+        "mean": 28.0,
+        "median": 28.0,
+        "std": null
+      },
+      "2017": {
+        "name": "TFA 18:2 t",
+        "count": 8,
+        "non_zero_count": 8,
+        "min": 0.000125,
+        "max": 0.139,
+        "mean": 0.045485000000000005,
+        "median": 0.0252525,
+        "std": 0.05372992289484245
+      },
+      "2050": {
+        "name": "Genistin",
+        "count": 62,
+        "non_zero_count": 43,
+        "min": 0.0,
+        "max": 37.47,
+        "mean": 7.921725806451612,
+        "median": 2.1975,
+        "std": 9.472659754536986
+      },
+      "1340": {
+        "name": "Daidzein",
+        "count": 62,
+        "non_zero_count": 53,
+        "min": 0.0,
+        "max": 31.7,
+        "mean": 4.961501612903225,
+        "median": 0.49845,
+        "std": 7.741153203273705
+      },
+      "1341": {
+        "name": "Genistein",
+        "count": 62,
+        "non_zero_count": 37,
+        "min": 0.0,
+        "max": 1.277,
+        "mean": 0.15422879032258066,
+        "median": 0.074375,
+        "std": 0.24695097173306713
+      },
+      "2051": {
+        "name": "Glycitin",
+        "count": 62,
+        "non_zero_count": 62,
+        "min": 0.03,
+        "max": 61.6,
+        "mean": 5.133124193548388,
+        "median": 0.38,
+        "std": 12.057572160804662
+      },
+      "2049": {
+        "name": "Daidzin",
+        "count": 62,
+        "non_zero_count": 62,
+        "min": 0.011,
+        "max": 42.07,
+        "mean": 9.311581129032257,
+        "median": 7.17,
+        "std": 10.704711670261059
+      },
+      "1118": {
+        "name": "Carotene, gamma",
+        "count": 72,
+        "non_zero_count": 10,
+        "min": 0.0,
+        "max": 5.0,
+        "mean": 0.53125,
+        "median": 0.0,
+        "std": 1.3977393090474124
+      },
+      "2053": {
+        "name": "Stigmastadiene",
+        "count": 36,
+        "non_zero_count": 0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "2052": {
+        "name": "Delta-7-Stigmastenol",
+        "count": 127,
+        "non_zero_count": 36,
+        "min": 0.0,
+        "max": 68.0,
+        "mean": 9.959511811023624,
+        "median": 0.0,
+        "std": 19.57818633349337
+      },
+      "1080": {
+        "name": "Lignin",
+        "count": 4,
+        "non_zero_count": 4,
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0
+      },
+      "2069": {
+        "name": "Glutathione",
+        "count": 91,
+        "non_zero_count": 91,
+        "min": 2.9,
+        "max": 35.4,
+        "mean": 15.157142857142857,
+        "median": 14.9,
+        "std": 8.60068657281554
+      },
+      "2058": {
+        "name": "Beta-glucan",
+        "count": 199,
+        "non_zero_count": 144,
+        "min": 0.0,
+        "max": 8.88,
+        "mean": 1.9060663316582915,
+        "median": 1.5,
+        "std": 2.0211568855190136
+      },
+      "2061": {
+        "name": "Ergosta-7,22-dienol",
+        "count": 91,
+        "non_zero_count": 90,
+        "min": 0.0,
+        "max": 2.6475,
+        "mean": 1.0677802197802198,
+        "median": 0.93,
+        "std": 0.5379628851757506
+      },
+      "1284": {
+        "name": "Ergosterol",
+        "count": 91,
+        "non_zero_count": 91,
+        "min": 31.4,
+        "max": 118.0,
+        "mean": 57.584395604395596,
+        "median": 55.8,
+        "std": 14.050372233803092
+      },
+      "2059": {
+        "name": "Vitamin D4",
+        "count": 91,
+        "non_zero_count": 10,
+        "min": 0.0,
+        "max": 0.72,
+        "mean": 0.029856043956043958,
+        "median": 0.0,
+        "std": 0.11381733534122042
+      },
+      "2060": {
+        "name": "Ergosta-7-enol",
+        "count": 91,
+        "non_zero_count": 91,
+        "min": 0.68,
+        "max": 10.325,
+        "mean": 2.32239010989011,
+        "median": 1.78,
+        "std": 1.6469661819407992
+      },
+      "2062": {
+        "name": "Ergosta-5,7-dienol",
+        "count": 91,
+        "non_zero_count": 91,
+        "min": 1.85,
+        "max": 17.8,
+        "mean": 7.056505494505494,
+        "median": 5.575,
+        "std": 4.218416317828888
+      },
+      "2057": {
+        "name": "Ergothioneine",
+        "count": 91,
+        "non_zero_count": 88,
+        "min": 0.0,
+        "max": 53.0,
+        "mean": 12.145912087912087,
+        "median": 8.0,
+        "std": 11.976804801734572
+      },
+      "1076": {
+        "name": "Raffinose",
+        "count": 18,
+        "non_zero_count": 18,
+        "min": 0.006,
+        "max": 0.093,
+        "mean": 0.03720182594444445,
+        "median": 0.028999999999999998,
+        "std": 0.03144787039648161
+      },
+      "1077": {
+        "name": "Stachyose",
+        "count": 18,
+        "non_zero_count": 16,
+        "min": 0.0,
+        "max": 0.54,
+        "mean": 0.2209388888888889,
+        "median": 0.15,
+        "std": 0.2264603254146918
+      },
+      "2063": {
+        "name": "Verbascose",
+        "count": 18,
+        "non_zero_count": 9,
+        "min": 0.0,
+        "max": 0.03,
+        "mean": 0.013125000000000001,
+        "median": 0.01,
+        "std": 0.013907850618392816
+      },
+      "1041": {
+        "name": "Oxalic acid",
+        "count": 144,
+        "non_zero_count": 0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "1044": {
+        "name": "Quinic acid",
+        "count": 144,
+        "non_zero_count": 15,
+        "min": 0.0,
+        "max": 1220.0,
+        "mean": 64.96851388888889,
+        "median": 0.0,
+        "std": 249.0133906021133
+      },
+      "2038": {
+        "name": "High Molecular Weight Dietary Fiber (HMWDF)",
+        "count": 171,
+        "non_zero_count": 171,
+        "min": 1.31,
+        "max": 64.4,
+        "mean": 8.901169590643274,
+        "median": 8.65,
+        "std": 6.388651070951047
+      },
+      "2065": {
+        "name": "Low Molecular Weight Dietary Fiber (LMWDF)",
+        "count": 171,
+        "non_zero_count": 103,
+        "min": 0.0,
+        "max": 6.29,
+        "mean": 0.9364654970760233,
+        "median": 0.672,
+        "std": 1.2613551521290685
+      },
+      "1043": {
+        "name": "Pyruvic acid",
+        "count": 72,
+        "non_zero_count": 0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0
+      },
+      "1068": {
+        "name": "Beta-glucans",
+        "count": 1,
+        "non_zero_count": 1,
+        "min": 4.0,
+        "max": 4.0,
+        "mean": 4.0,
+        "median": 4.0,
+        "std": null
+      },
+      "2067": {
+        "name": "Vitamin A",
+        "count": 29180,
+        "non_zero_count": 14513,
+        "min": 0.0,
+        "max": 4225352.0,
+        "mean": 614.499931459904,
+        "median": 0.0,
+        "std": 28918.1507777777
+      },
+      "2068": {
+        "name": "Vitamin E",
+        "count": 2360,
+        "non_zero_count": 1848,
+        "min": 0.0,
+        "max": 51923.0,
+        "mean": 30.61864406779661,
+        "median": 3.0,
+        "std": 1068.985536213668
+      },
+      "1149": {
+        "name": "Salt, NaCl",
+        "count": 8,
+        "non_zero_count": 5,
+        "min": 0.0,
+        "max": 3269.0,
+        "mean": 1206.125,
+        "median": 1300.0,
+        "std": 1184.7158113114845
+      }
+    }
+  },
+  "data_validation": {
+    "food_counts": {
+      "total_foods": 2059641,
+      "unique_fdc_ids": 2059641,
+      "foods_with_nutrients": 1944807
+    },
+    "nutrient_coverage": {
+      "foods_missing_nutrients": 114834,
+      "avg_nutrients_per_food": 12.997528210013298
+    },
+    "data_quality": {
+      "null_fdc_ids": 0,
+      "duplicate_fdc_ids": 0,
+      "foods_without_category": 12689
+    },
+    "type_validation": {
+      "food_category_id_types": {
+        "<class 'str'>": 2046952,
+        "<class 'float'>": 12689
+      },
+      "fdc_id_types": {
+        "<class 'int'>": 2059641
+      },
+      "nutrient_id_types": {
+        "<class 'int'>": 477
+      }
+    }
+  }
+}

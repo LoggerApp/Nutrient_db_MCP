@@ -1,0 +1,15 @@
+[project]
+name = "usda-mcp-server"
+version = "0.1.0"
+description = "MCP Server for USDA Nutrient Database"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.24.1",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "sqlite3-utils>=3.35.0"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+      "usda": {
+        "command": "python",
+        "args": ["-m", "usda_mcp_server.server", "--db-path", "/Users/Shared/Documents/gpt pilot/gpt-pilot/workspace/food_db_analysis/data/optimized_nutrients.db"]
+      }
+    }
+  }

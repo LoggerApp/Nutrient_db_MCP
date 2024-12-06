@@ -1,0 +1,415 @@
+{
+  "table_analysis": {
+    "food.csv": {
+      "filename": "food.csv",
+      "columns": [
+        "fdc_id",
+        "data_type",
+        "description",
+        "food_category_id",
+        "publication_date"
+      ],
+      "total_rows": 2059641,
+      "data_types": {
+        "fdc_id": "int64",
+        "data_type": "object",
+        "description": "object",
+        "food_category_id": "object",
+        "publication_date": "object"
+      },
+      "null_counts": {
+        "fdc_id": 0,
+        "data_type": 0,
+        "description": 0,
+        "food_category_id": 1,
+        "publication_date": 0
+      },
+      "sample_row": {
+        "fdc_id": 1105904,
+        "data_type": "branded_food",
+        "description": "WESSON Vegetable Oil 1 GAL",
+        "food_category_id": "Oils Edible",
+        "publication_date": "2020-11-13"
+      },
+      "unique_counts": {
+        "fdc_id": 2059641,
+        "data_type": 9,
+        "description": 490277,
+        "food_category_id": 645,
+        "publication_date": 112
+      }
+    },
+    "food_nutrient.csv": {
+      "filename": "food_nutrient.csv",
+      "columns": [
+        "id",
+        "fdc_id",
+        "nutrient_id",
+        "amount",
+        "data_points",
+        "derivation_id",
+        "min",
+        "max",
+        "median",
+        "loq",
+        "footnote",
+        "min_year_acquired",
+        "percent_daily_value"
+      ],
+      "total_rows": 26770242,
+      "data_types": {
+        "id": "int64",
+        "fdc_id": "int64",
+        "nutrient_id": "int64",
+        "amount": "float64",
+        "data_points": "float64",
+        "derivation_id": "int64",
+        "min": "float64",
+        "max": "float64",
+        "median": "float64",
+        "loq": "float64",
+        "footnote": "float64",
+        "min_year_acquired": "float64",
+        "percent_daily_value": "float64"
+      },
+      "null_counts": {
+        "id": 0,
+        "fdc_id": 0,
+        "nutrient_id": 0,
+        "amount": 0,
+        "data_points": 5,
+        "derivation_id": 0,
+        "min": 5,
+        "max": 5,
+        "median": 5,
+        "loq": 5,
+        "footnote": 5,
+        "min_year_acquired": 5,
+        "percent_daily_value": 2
+      },
+      "sample_row": {
+        "id": 13706927.0,
+        "fdc_id": 1105904.0,
+        "nutrient_id": 1257.0,
+        "amount": 0.0,
+        "data_points": NaN,
+        "derivation_id": 71.0,
+        "min": NaN,
+        "max": NaN,
+        "median": NaN,
+        "loq": NaN,
+        "footnote": NaN,
+        "min_year_acquired": NaN,
+        "percent_daily_value": NaN
+      },
+      "unique_counts": {
+        "id": 26770242,
+        "fdc_id": 1944807,
+        "nutrient_id": 268,
+        "amount": 33061,
+        "data_points": 396,
+        "derivation_id": 66,
+        "min": 7642,
+        "max": 8599,
+        "median": 3836,
+        "loq": 186,
+        "footnote": 4,
+        "min_year_acquired": 23,
+        "percent_daily_value": 1691
+      }
+    },
+    "nutrient.csv": {
+      "filename": "nutrient.csv",
+      "columns": [
+        "id",
+        "name",
+        "unit_name",
+        "nutrient_nbr",
+        "rank"
+      ],
+      "total_rows": 477,
+      "data_types": {
+        "id": "int64",
+        "name": "object",
+        "unit_name": "object",
+        "nutrient_nbr": "int64",
+        "rank": "float64"
+      },
+      "null_counts": {
+        "id": 0,
+        "name": 0,
+        "unit_name": 0,
+        "nutrient_nbr": 0,
+        "rank": 0
+      },
+      "sample_row": {
+        "id": 2047,
+        "name": "Energy (Atwater General Factors)",
+        "unit_name": "KCAL",
+        "nutrient_nbr": 957,
+        "rank": 280.0
+      },
+      "unique_counts": {
+        "id": 477,
+        "name": 474,
+        "unit_name": 12,
+        "nutrient_nbr": 466,
+        "rank": 357
+      }
+    },
+    "food_category.csv": {
+      "filename": "food_category.csv",
+      "columns": [
+        "id",
+        "code",
+        "description"
+      ],
+      "total_rows": 28,
+      "data_types": {
+        "id": "int64",
+        "code": "int64",
+        "description": "object"
+      },
+      "null_counts": {
+        "id": 0,
+        "code": 0,
+        "description": 0
+      },
+      "sample_row": {
+        "id": 1,
+        "code": 100,
+        "description": "Dairy and Egg Products"
+      },
+      "unique_counts": {
+        "id": 28,
+        "code": 28,
+        "description": 28
+      }
+    },
+    "branded_food.csv": {
+      "filename": "branded_food.csv",
+      "columns": [
+        "fdc_id",
+        "brand_owner",
+        "brand_name",
+        "subbrand_name",
+        "gtin_upc",
+        "ingredients",
+        "not_a_significant_source_of",
+        "serving_size",
+        "serving_size_unit",
+        "household_serving_fulltext",
+        "branded_food_category",
+        "data_source",
+        "package_weight",
+        "modified_date",
+        "available_date",
+        "market_country",
+        "discontinued_date",
+        "preparation_state_code",
+        "trade_channel",
+        "short_description"
+      ],
+      "total_rows": 1977404,
+      "data_types": {
+        "fdc_id": "int64",
+        "brand_owner": "object",
+        "brand_name": "float64",
+        "subbrand_name": "float64",
+        "gtin_upc": "int64",
+        "ingredients": "object",
+        "not_a_significant_source_of": "float64",
+        "serving_size": "float64",
+        "serving_size_unit": "object",
+        "household_serving_fulltext": "float64",
+        "branded_food_category": "object",
+        "data_source": "object",
+        "package_weight": "float64",
+        "modified_date": "object",
+        "available_date": "object",
+        "market_country": "object",
+        "discontinued_date": "float64",
+        "preparation_state_code": "float64",
+        "trade_channel": "float64",
+        "short_description": "float64"
+      },
+      "null_counts": {
+        "fdc_id": 0,
+        "brand_owner": 0,
+        "brand_name": 5,
+        "subbrand_name": 5,
+        "gtin_upc": 0,
+        "ingredients": 0,
+        "not_a_significant_source_of": 5,
+        "serving_size": 0,
+        "serving_size_unit": 0,
+        "household_serving_fulltext": 5,
+        "branded_food_category": 0,
+        "data_source": 0,
+        "package_weight": 5,
+        "modified_date": 0,
+        "available_date": 0,
+        "market_country": 0,
+        "discontinued_date": 5,
+        "preparation_state_code": 5,
+        "trade_channel": 5,
+        "short_description": 5
+      },
+      "sample_row": {
+        "fdc_id": 1105904,
+        "brand_owner": "Richardson Oilseed Products (US) Limited",
+        "brand_name": NaN,
+        "subbrand_name": NaN,
+        "gtin_upc": 27000612323,
+        "ingredients": "Vegetable Oil",
+        "not_a_significant_source_of": NaN,
+        "serving_size": 15.0,
+        "serving_size_unit": "ml",
+        "household_serving_fulltext": NaN,
+        "branded_food_category": "Oils Edible",
+        "data_source": "GDSN",
+        "package_weight": NaN,
+        "modified_date": "2020-10-02",
+        "available_date": "2020-11-13",
+        "market_country": "United States",
+        "discontinued_date": NaN,
+        "preparation_state_code": NaN,
+        "trade_channel": NaN,
+        "short_description": NaN
+      },
+      "unique_counts": {
+        "fdc_id": 1977404,
+        "brand_owner": 37053,
+        "brand_name": 36241,
+        "subbrand_name": 8396,
+        "gtin_upc": 694045,
+        "ingredients": 396025,
+        "not_a_significant_source_of": 10274,
+        "serving_size": 2379,
+        "serving_size_unit": 9,
+        "household_serving_fulltext": 29293,
+        "branded_food_category": 448,
+        "data_source": 3,
+        "package_weight": 32869,
+        "modified_date": 2656,
+        "available_date": 57,
+        "market_country": 2,
+        "discontinued_date": 233,
+        "preparation_state_code": 26,
+        "trade_channel": 143,
+        "short_description": 14628
+      }
+    },
+    "foundation_food.csv": {
+      "filename": "foundation_food.csv",
+      "columns": [
+        "fdc_id",
+        "NDB_number",
+        "footnote"
+      ],
+      "total_rows": 316,
+      "data_types": {
+        "fdc_id": "int64",
+        "NDB_number": "int64",
+        "footnote": "object"
+      },
+      "null_counts": {
+        "fdc_id": 0,
+        "NDB_number": 0,
+        "footnote": 4
+      },
+      "sample_row": {
+        "fdc_id": 321358,
+        "NDB_number": 16158,
+        "footnote": NaN
+      },
+      "unique_counts": {
+        "fdc_id": 316,
+        "NDB_number": 316,
+        "footnote": 16
+      }
+    },
+    "measure_unit.csv": {
+      "filename": "measure_unit.csv",
+      "columns": [
+        "id",
+        "name"
+      ],
+      "total_rows": 122,
+      "data_types": {
+        "id": "int64",
+        "name": "object"
+      },
+      "null_counts": {
+        "id": 0,
+        "name": 0
+      },
+      "sample_row": {
+        "id": 1000,
+        "name": "cup"
+      },
+      "unique_counts": {
+        "id": 122,
+        "name": 122
+      }
+    },
+    "food_attribute.csv": {
+      "filename": "food_attribute.csv",
+      "columns": [
+        "id",
+        "fdc_id",
+        "seq_num",
+        "food_attribute_type_id",
+        "name",
+        "value"
+      ],
+      "total_rows": 2467121,
+      "data_types": {
+        "id": "int64",
+        "fdc_id": "int64",
+        "seq_num": "float64",
+        "food_attribute_type_id": "float64",
+        "name": "object",
+        "value": "int64"
+      },
+      "null_counts": {
+        "id": 0,
+        "fdc_id": 0,
+        "seq_num": 5,
+        "food_attribute_type_id": 5,
+        "name": 0,
+        "value": 0
+      },
+      "sample_row": {
+        "id": 1009437,
+        "fdc_id": 1105904,
+        "seq_num": NaN,
+        "food_attribute_type_id": NaN,
+        "name": "Ingredients",
+        "value": 3
+      },
+      "unique_counts": {
+        "id": 2467121,
+        "fdc_id": 1547479,
+        "seq_num": 35,
+        "food_attribute_type_id": 6,
+        "name": 52,
+        "value": 10085
+      }
+    }
+  },
+  "relationships": {
+    "food.csv": [
+      "food_category_id -> food_category.csv"
+    ],
+    "food_nutrient.csv": [
+      "nutrient_id -> nutrient.csv"
+    ],
+    "nutrient.csv": [],
+    "food_category.csv": [],
+    "branded_food.csv": [],
+    "foundation_food.csv": [],
+    "measure_unit.csv": [],
+    "food_attribute.csv": []
+  }
+}

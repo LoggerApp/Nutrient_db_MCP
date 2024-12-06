@@ -1,0 +1,35 @@
+# Specific project paths
+src/usda_mcp_server/FoodData_Central_csv_2024-10-31/
+optimized_nutrients.db
+
+src/usda_mcp_server/FoodData_Central_csv_2024-10-31
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+ENV/
+
+# IDE
+.idea/
+.vscode/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

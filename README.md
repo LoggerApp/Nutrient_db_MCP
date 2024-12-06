@@ -85,17 +85,17 @@ See [Setup Guide: USDA Nutrient Database.md](docs/Setup%20Guide:%20USDA%20Nutrie
 Ask Claude about nutrition:
 
 ```
-What nutrients are in raw spinach?
+Make a full day of recipies based around a vitamin D deficiency.
 ```
 
 Compare foods:
 ```
-Compare the protein content of chicken breast, tofu, and black beans.
+Recomend meals that minimize carbohydrates and maximize protien
 ```
 
 Find nutrient-dense foods:
 ```
-What foods are highest in vitamin C and fiber?
+Give me a nutrient breakdown for this recipie: [xyz]
 ```
 
 ## Available Resources
